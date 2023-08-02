@@ -81,7 +81,15 @@ req42:
   url: "https://req42.de/"  
   btn_label: "Zur Webseite"
   btn_class: "btn--primary"
-  excerpt: "Die deutsch- und die englischsprachige Seite für das Requirements Management Framework req42"
+  excerpt: "Die deutsch- und die englischsprachige Seite für das Requirements Management Framework req42."
+
+req42_docs:
+- title: "docs.req42.de"
+  image_path: /images/references/docs_req42.webp
+  url: "https://docs.req42.de/"
+  btn_label: "Zur Webseite"
+  btn_class: "btn--primary"
+  excerpt: "Tipps zur Verwendung des req42-Templates."
 ---
 
 <div class="references_bright" id="ref-zero">
@@ -118,4 +126,8 @@ req42:
 
 <div class="references_bright hide-for-fade-in" id="ref-eight">
 {% include feature_row id="req42" type="left" %}
+</div>
+
+<div class="references_dark hide-for-fade-in" id="ref-nine">
+  {% include feature_row id="req42_docs" type="right" %}
 </div>
