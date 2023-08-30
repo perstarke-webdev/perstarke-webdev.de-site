@@ -8,7 +8,7 @@ header:
     overlay_filter: rgba(0, 0, 0, 0.6)
 ---
 
-# Standard-Homepage <small> <i class="fa-solid fa-display"></i> <small class="price"> (150€) </small> </small>
+# Standard-Homepage <small> <i class="fas fa-laptop"></i> <small class="price"> (150€) </small> </small>
 Eine Webseite vom gleichen Aufbau wie diese hier - du lieferst die Texte (und auf Wunsch Bilder), ich die fertige Seite!
 * Deine Design-Wünsche
 * Home-Seite
@@ -22,22 +22,22 @@ Eine Webseite vom gleichen Aufbau wie diese hier - du lieferst die Texte (und au
 
 <hr class="big-sep">
 
-#### Weitere Unterseiten <i class="fa-solid fa-file"></i><small class="price"> (+25€) </small>
+#### Weitere Unterseiten <i class="fas fa-file"></i><small class="price"> (+25€) </small>
 So viele weitere Unterseiten wie Du möchtest.  
 25€ pro Seite für die ersten zwei weiteren Unterseiten, ab dann nach Absprache.
 
-#### Blog <i class="fa-regular fa-pen-to-square"></i> <small class="price"> (+50-100€) </small>
+#### Blog <i class="fas fa-pen"></i> <small class="price"> (+50-100€) </small>
 Ein nach Deinen Wünschen gestalteter Blog auf Deiner Homepage, inklusive
 * Gewünschter Sortierung Deiner Blog-Posts
   * Inklusive Kategorien / Tags
 * All Deiner bisherigen Posts <small><small> Ggfs. höherer Preis bei >10 bisherigen Posts </small></small>
 * Erklärung für das Hinzufügen und Gestalten weiterer Posts
 
-#### Event-Seite mit Anmeldung <i class="fa-solid fa-calendar-days"></i> <small class="price"> (+50€) </small>
+#### Event-Seite mit Anmeldung <i class="fas fa-calendar"></i> <small class="price"> (+50€) </small>
 Eine Anmelde-Seite für Dein Event, gestaltet frei nach Deinen Wünschen <small markdown="1"> *(wie zum Beispiel die [Anmelde-Seite
 für das PowerBase Squat Maxout](https://anmeldung-squatmax.netlify.app/anmeldung)).*</small>
 
-#### Besucherzahlen-Tracking <i class="fa-solid fa-chart-simple"></i> <small class="price"> (+30€) </small>
+#### Besucherzahlen-Tracking <i class="fas fa-chart-bar"></i> <small class="price"> (+30€) </small>
 Wenn Du Interesse daran hast, wie viele Leute Deine Webseite besuchen, woher die meisten Aufrufe kommen etc., 
 dann kann ich Dir *cookie-freies* und *privatsphären-freundliches* Tracking mit [Plausible](https://plausible.io/) einbauen.
 <small markdown="1"> Siehe als Beispiel [status.arc42.org](https://status.arc42.org/)</small>
