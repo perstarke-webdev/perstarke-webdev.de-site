@@ -173,6 +173,7 @@ const options = {
 };
 
 const observer = new IntersectionObserver(handleIntersection, options);
+observer.observe(zero);
 observer.observe(one);
 observer.observe(two);
 observer.observe(three);
