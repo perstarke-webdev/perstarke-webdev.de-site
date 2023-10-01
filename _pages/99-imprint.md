@@ -33,6 +33,16 @@ Der Anbieter verwendet diese Protokolldaten *nicht*!
 
 Der Anbieter behält sich jedoch vor, die Protokolldaten nachträglich zu überprüfen, wenn aufgrund konkreter Anhaltspunkte der berechtigte Verdacht einer rechtswidrigen Nutzung besteht.
 
+#### GitHub Pages und CDN-Nutzung:
+
+Diese Website wird über [GitHub Pages](https://pages.github.com/) bereitgestellt, einem von GitHub, Inc. angebotenen Dienst, der es ermöglicht, Webseiteninhalte effizient und schnell weltweit zu verteilen. Die Verwendung von GitHub Pages integriert automatisch ein Content Delivery Network (CDN), um die Ladezeiten der Website zu optimieren und die Verfügbarkeit von Inhalten sicherzustellen.
+
+Durch die Nutzung dieser Website erklären Sie sich damit einverstanden, dass einige Ihrer nicht-persönlichen Daten, wie die IP-Adresse und Informationen zur Seitennutzung, über das CDN übertragen werden können, um eine optimale Leistung der Website zu gewährleisten. Diese Datenübertragung erfolgt in Übereinstimmung mit den geltenden Datenschutzbestimmungen.
+
+Wir respektieren Ihre Privatsphäre und ergreifen angemessene Maßnahmen, um Ihre persönlichen Informationen zu schützen. Bitte beachten Sie unsere Datenschutzerklärung für weitere Informationen darüber, wie wir mit Ihren Daten umgehen.
+
+Bei Fragen oder Anliegen zur Verwendung von GitHub Pages und des CDNs auf dieser Website können Sie sich gerne an uns wenden.
+
 #### Kontaktaufnahme
 Bei der Kontaktaufnahme mit dem Anbieter (zum Beispiel per Kontaktformular oder E-Mail) werden die Angaben des Nutzers zwecks Bearbeitung der Anfrage sowie für den Fall, dass Anschlussfragen entstehen, gespeichert.
 
@@ -41,7 +51,8 @@ Bei der Kontaktaufnahme mit dem Anbieter (zum Beispiel per Kontaktformular oder 
 Diese Site enthält keine Kommentarfunktion, Nutzer können daher keine Beiträge hinterlassen.
 
 #### Analyse, Tracking und Cookies
-Diese Seite verwendet kein Tracking, um Zugriffszahlen zu ermitteln, und keine Cookies.
+Diese Seite verwendet kein Tracking, um Zugriffszahlen zu ermitteln.
+Es wird ein Cookie für die Dauer von einem Tag gesetzt, um die Zustimmung zur Verwendung der Website zu speichern, im Banner auf der Startseite, davon abgesehen verwenden wir keine Cookies.
 
 #### Haftung für Links
 Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar.
@@ -60,7 +71,10 @@ erlaubt die Darstellung diverser Icon-Symbole auf unseren Seiten.
 
 FontAwesome nutzt anonyme Zugriffsdaten, die in deren
 [privacy policy](https://fontawesome.com/privacy) spezifiziert sind.
+
+Auf dieser Webseite wird FontAwesome allerdings lokal gehostet und somit keine Daten an FontAwesome weitergegeben.
 <br/>
+
 
 #### Widerruf, Änderungen, Berichtigungen und Aktualisierungen
 Der Nutzer hat das Recht, auf Antrag unentgeltlich Auskunft zu erhalten über die personenbezogenen Daten, die über ihn gespeichert wurden. Zusätzlich hat der Nutzer das Recht auf Berichtigung unrichtiger Daten, Sperrung und Löschung seiner personenbezogenen Daten, soweit dem keine gesetzliche Aufbewahrungspflicht entgegensteht.<br />
