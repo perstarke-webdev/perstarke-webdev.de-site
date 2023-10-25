@@ -28,6 +28,7 @@
 {% include_cached masthead.html %}
 
 <div class="initial-content">
+  {{ content }}
   <div id="cookie-banner" class="center">
     Diese Website wird über GitHub Pages zur Verfügung gestellt, das heißt, sie verwendet ein globales Verteilernetzwerk (CDN), um Inhalte zuverlässig anzuzeigen. Wenn du die Website nutzt, können einige deiner nicht-persönlichen Daten, wie beispielsweise die IP-Adresse und Informationen zur Seitennutzung, über dieses Netzwerk übertragen werden, um eine einwandfreie Funktion der Website zu gewährleisten.
     Mehr Infos findest du im
@@ -62,7 +63,6 @@
     // Event Listener für den Einverstanden-Button
     document.getElementById('cookie-consent-btn').addEventListener('click', setCookieConsent);
 </script>
-  {{ content }}
 </div>
 
 {% if site.search == true %}
