@@ -1,0 +1,82 @@
+---
+title: "Search Engine Optimization (SEO) #1 - Benennung von Bildern & Alternative Texte"
+permalink: /posts/seo-one
+layout: single
+excerpt: "In den Posts dieser Reihe möchte ich euch zeigen, was ihr tun könnt, um eure Seite für Suchmaschinen zu optimieren. Im ersten Post geht es um Benennung von Bildern & Alternative Texte"
+---
+
+SEO ist ein unfassbar wichtiges Thema im Web Development!<br>
+Bei Google (oder anderen Suchmaschinen) gut gefunden zu werden, ist ohne Zweifel ein wichtiges Ziel einer Website. Wenn du die Position deiner Website bei einer Google Suchanfrage von 8 auf 4 verbesserst, besuchen im Schnitt 4x mehr Personen deine Seite - wenn du auf Position 1 kommst, sind es nochmals 12x so viele! <a href="#1">[1]</a>, <a href="#2">[2]</a><br>
+<br>
+In den Posts dieser Reihe möchte ich euch zeigen, was ihr tun könnt, um eure Seite für Suchmaschinen zu optimieren.<br>
+<br>
+Jeder Post soll dabei ein „To-Do“ für die SEO eurer Website erklären.<br>
+<br>
+Voraussetzung ist immer, dass die absoluten Basics eurer Website schon stimmen! Das heißt, ihr habt relevante Inhalte, gut formulierte Texte, verwendet für eure Zielgruppe passende Keywords in euren Texten, und der Aufbau und das Design der Website sind übersichtlich und ansprechend. Dazu gehört vor allem auch eine vernünftige Navigation, sodass alle Inhalte leicht zu finden sind. Ist das nicht gegeben, bringen auch weitere Tricks nicht viel für eure SEO.<br>
+<br>
+
+Starten wir mit To-Do # 1 für eure SEO - <strong>Benennung von Bildern & Alternative Texte!</strong><br>
+
+<hr>
+
+<h3> Benennung von Bildern </h3>
+
+Wenn du Bilder auf deiner Website verwendest, benutzen Suchmaschinen den Dateinamen, um den Inhalt des Bildes zu verstehen.<br><br>
+
+Verwende also keine generischen Dateinamen wie <span class="red">“bild1.webp“</span>, sondern aussagekräftige Dateinamen wie <span class="green">“roter-sportwagen-außenansicht.webp“</span>.
+
+<hr>
+
+<h3> Alternative Texte </h3>
+
+Ebenso wie Dateinamen werden auch alternative Texte für Bilder von Suchmaschinen genutzt, um den Inhalt des Bildes zu verstehen.<br>
+<br>
+Außerdem benutzen auch Screenreader den alternativen Text, um z.B. Menschen mit Sehbehinderungen eine Website vorlesen oder erklären zu können.<br>
+<br>
+Es hat also nur Vorteile, den alternativen Text für Bilder zu verwenden!<br>
+<br>
+Dieser sollte präzise und knapp das Bild beschreiben, z.B. <span class="green">“Roter Sportwagen im Sonnenuntergang“</span>.<br>
+<br>
+Auf Webseiten werden Bilder in HTML folgendermaßen eingebunden:<br><br>
+<img src="/images/posts/seo-one/bilder-in-html-einbinden.png" alt="<img src='ordner/zum/bild/bildname.webp'"><br><br>
+Den Alternativen Text kannst du durch das “alt”-Attribut hinzufügen, das sieht dann folgendermaßen aus:<br><br>
+<img src="/images/posts/seo-one/bilder-in-html-mit-alt-text.png" alt="<img src='ordner/zum/bild/bildname.webp' alt='Alternativer Text'"><br>
+
+<hr>
+
+<h3> Vorsicht </h3>
+
+<span class="red">Zu lange Dateinnamen oder Alternative Texte</span> können von Suchmaschinen negativ bewertet werden.
+
+Versuche also, wirklich präzise zu sein, und keine unnötig langen Namen und Texte zu verwenden, auch wenn du dadurch mehr “Keywords“ verwenden könntest. Suchmaschinen mögen dieses <span class="red">“Keyword stuffing”</span> garnicht gerne!
+
+<hr>
+
+<h3> Beispiel </h3>
+
+<img src="/images/posts/seo-one/bildbenennung-generisch.png" alt="Zu kurze, generische Bildbenennung ohne Alternativen Text"><br>
+<p class="red bold"> Schlecht, denn: Generischer Dateiname, kein alt-Text</p>
+<img src="/images/posts/seo-one/bildbenennung-zu-lang.png" alt="Zu lange Bildbenennung und Alternativer Text, Keyword Stuffing"><br>
+<p class="red bold"> Schlecht, denn: “Keyword stuffing”, wird negativ bewertet </p>
+<img src="/images/posts/seo-one/bildbenennung-optimal.png" alt="Optimale Bildbenennung und Alternativer Text"><br>
+<p class="green bold"> Genau richtig!</p>
+
+<hr>
+
+<h3> Markdown </h3>
+
+Auch wenn du deine Webseiten nicht direkt in HTML schreibst, sondern z.B. Markdown verwendest, kannst du Alternativen Text benutzen!<br>
+<br>
+<small>(Markdown ist eine einfache Textauszeichnungssprache, die verwendet wird, um Text mit Formatierungen wie Überschriften, Listen und Links zu strukturieren und kann automatisch in HTML umgewandelt werden)</small><br>
+<br>
+Das sieht dann so aus:<br>
+<img src="/images/posts/seo-one/alt-text-in-markdown.png" alt="Bilder mit Alternativem Text in  Markdown einfügen">
+
+
+
+<hr>
+<h3> Quellen </h3>
+
+<span id="1">[1] Granka, Joachims & Gay. Eye-Tracking Analysis of User Behavior in WWW Search. 2004.</span><br>
+<span id="2">[2] Beus. Klickwahrscheinlichkeiten in den Google SERPs. 2015.</span>
+

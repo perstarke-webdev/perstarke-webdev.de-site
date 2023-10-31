@@ -16,6 +16,18 @@
     display: initial;
 }
 
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 /**
 Some basic design stuff
 */

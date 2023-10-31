@@ -1,0 +1,24 @@
+---
+title: Blogposts
+layout: single
+permalink: /posts
+header:
+    overlay_image: /images/splash/webdev.jpg
+    caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+    overlay_filter: rgba(0, 0, 0, 0.6)
+---
+
+{% assign articles = site.posts | sort: 'date' | reverse %}
+
+{% for article in articles %}
+
+<h3>
+    <a href="{{ article.permalink }}"
+       rel="noopener noreferrer nofollow"
+       target="_blank">
+        {{ article.title }}
+    </a>
+</h3>
+<p>{{ article.excerpt }}</p>
+
+{% endfor %}
