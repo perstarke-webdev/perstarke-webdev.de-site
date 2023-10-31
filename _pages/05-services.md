@@ -19,6 +19,7 @@ Eine Webseite vom gleichen Aufbau wie diese hier - du lieferst die Texte (und au
 * [Navigationsleiste](/gallery#navigationsleiste) & [Fußzeile](/gallery#fußzeile)
 * [Favicon](/gallery#favicon) <small markdown="1"> *(Logo/Bild, welches im Tab neben dem Namen deiner Seite gezeigt wird* </small>
 * Gesamte Webseite optimiert für minimalen Energiebedarf - *green and sustainable IT*
+* Grundlegende Optimierung deiner Seite für Suchmaschinen (SEO))
 
 <hr class="big-sep">
 
@@ -42,5 +43,12 @@ Wenn Du Interesse daran hast, wie viele Leute Deine Webseite besuchen, woher die
 dann kann ich Dir *cookie-freies* und *privatsphären-freundliches* Tracking mit [Plausible](https://plausible.io/) einbauen.
 <small markdown="1"> Siehe als Beispiel [status.arc42.org](https://status.arc42.org/)</small>
 
+#### Fortgeschrittene Suchmaschinenoptimierung <small class="price"> (+50€) </small>
+Du willst noch besser bei Google und anderen Suchmaschinen gefunden werden?
+Dann buche das extra SEO-Paket zu deiner Website hinzu. Grundlegende Suchmaschinenoptimierung ist natürlich bei jeder von mir erstellten Website inkludiert!
+
 #### Weitere Wünsche? Frag mich einfach!
 **[Kontaktiere mich](/contact)**
+
+  
+<small><small> Preise sind unverbindlich und hängen vom gewünschten Website-Umfang und Designwünschen ab.</small> </small>
