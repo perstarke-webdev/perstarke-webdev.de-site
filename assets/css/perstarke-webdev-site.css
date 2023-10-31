@@ -16,6 +16,12 @@
     display: initial;
 }
 
+
+/*
+Posts
+*/
+
+
 .green {
     color: green;
 }
@@ -26,6 +32,34 @@
 
 .bold {
     font-weight: bold;
+}
+
+.url-box {
+    border-radius: 5px;
+    padding: 5px;
+    width: max-content;
+    margin: 5px 0;
+    border: 1.5px solid grey;
+}
+
+.green-box {
+    border: 1.5px solid green;
+}
+
+.red-box {
+    border: 1.5px solid red;
+}
+
+.lighter {
+    font-weight: lighter;
+}
+
+.darker-green {
+    color: #568203;
+}
+
+.yellow {
+    color: #FEBE10;
 }
 
 /**
