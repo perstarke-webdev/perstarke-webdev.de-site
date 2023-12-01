@@ -8,6 +8,13 @@ header:
     overlay_filter: rgba(0, 0, 0, 0.6)
 excerpt: "Webseiten, die ich gestaltet oder bei denen ich mitgewirkt habe"
 
+peter:
+- title: "Peter Hruschka"
+  image_path: /images/references/peterhruschka-logo-references.webp
+  url: "https://peterhruschka.eu/"
+  btn_label: "Zur Webseite"
+  btn_class: "btn--primary"
+  excerpt: "Die alte Website von Peter Hruschka hatte ein etwas veraltetes und unpraktisches Design - ich habe das Remake in modern, praktisch, Suchmaschinen-optimiert und angepasst an alle Displaygrößen erstellt und es ist jetzt online! Peter ist Spezialist für Software-Architektur, Requirements Engineering und agile Arbeitsmethoden im Software-Bereich - und jetzt auch mit professionellem Web-Auftritt."
 
 churros_donjuan_de:
 - title: "Churros Don Juan"
@@ -135,11 +142,15 @@ req42_docs:
   excerpt: "Tipps zur Verwendung des req42-Templates."
 ---
 
-<div class="references_bright" id="ref-thirteen">
+<div class="references_dark" id="ref-zero">
+  {% include feature_row id="peter" type="left" %}
+</div>
+
+<div class="references_bright hide-for-fade-in" id="ref-thirteen">
   {% include feature_row id="churros_donjuan_de" type="right" %}
 </div>
 
-<div class="references_dark hide-for-fade-in" id="ref-zero">
+<div class="references_dark hide-for-fade-in" id="ref-fifteen">
   {% include feature_row id="smplc" type="left" %}
 </div>
 
