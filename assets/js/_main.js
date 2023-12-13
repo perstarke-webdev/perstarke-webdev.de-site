@@ -156,6 +156,8 @@ var twelve = document.getElementById('ref-twelve');
 var fourteen = document.getElementById('ref-fourteen');
 var fifteen = document.getElementById('ref-fifteen');
 var thirteen = document.getElementById('ref-thirteen');
+var sixteen = document.getElementById('ref-sixteen');
+var seventeen = document.getElementById('ref-seventeen');
 
 
 // Fade in elements on scroll
@@ -192,5 +194,7 @@ observer.observe(twelve);
 observer.observe(fourteen);
 observer.observe(thirteen);
 observer.observe(fifteen);
+observer.observe(sixteen);
+observer.observe(seventeen);
 
 
