@@ -8,7 +8,7 @@ header:
     overlay_filter: rgba(0, 0, 0, 0.6)
 ---
 
-# Standard-Homepage <small> <i class="fas fa-laptop"></i> <small class="price"> (150€) </small> </small>
+# Standard-Homepage <small> <i class="fas fa-laptop"></i> <small class="price"> (300€) </small> </small>
 Eine Webseite vom gleichen Aufbau wie diese hier - du lieferst die Texte (und auf Wunsch Bilder), ich die fertige Seite!
 * Deine Design-Wünsche
 * Home-Seite
@@ -23,7 +23,7 @@ Eine Webseite vom gleichen Aufbau wie diese hier - du lieferst die Texte (und au
 
 <hr class="big-sep">
 
-#### Weitere Unterseiten <i class="fas fa-file"></i><small class="price"> (+25€) </small>
+#### Weitere Unterseiten <i class="fas fa-file"></i><small class="price"> (+25-50€) </small>
 So viele weitere Unterseiten wie Du möchtest.  
 25€ pro Seite für die ersten zwei weiteren Unterseiten, ab dann nach Absprache.
 
