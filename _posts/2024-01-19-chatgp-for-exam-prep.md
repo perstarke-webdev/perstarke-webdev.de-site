@@ -36,10 +36,21 @@ Here are my relevant exam details:
 - **No Access to Mock Exams**: I had no prior samples or mock exams to practice with.
 
 ### Setting Up ChatGPT for Studying
-ChatGPT pro allows you to create your own GPT version, which you can provide with individual information and instructions.
+ChatGPT pro allows you to create your own GPT version, which you can provide with individual information and instructions (can be found at: *"explore"* and then *"Create a GPT"* and then *"Configure"*).
 - I created a custom GPT especially for this exam prep.
 - I provided it with details about the exam, such as the type of exam and type of exam tasks as well as the general topic.
 - I instructed the GPT to summarize information in a detailed and correct, but also engaging, and fun manner. This can make memorizing things and staying focussed way easier.
+
+```
+This GPT shall help me prepare for my oral exam. This exam consists of verbal questions only, covering the topic of Cognitive Neuro Psychology and the topic of Sleep and Dream.
+
+When files are uploaded and asked to sum up, be detailed, precise and correct. Furthermore, try to sum them up in a somewhat playful, funny or exciting way, because this can help for disciplined studying.
+
+When asked for questions, give the answers only when being asked for them.
+
+Always make sure to not include incorrect or random information.
+Focus on the content of the files that are uploaded to the chats, either lecture slides or additional readings.
+```
 
 ## My Study Approach
 
@@ -98,15 +109,21 @@ I did one set of 10 questions for each lecture, and repeated this 3 times, so in
 ### If things are unclear
 
 If anything was unclear, during recapping or during practice, I asked ChatGPT for simplified explanations in easy words.
-These usually were extremely easy to understand, and after that, I could ask for a little bit more detailed and complicated explanation.
+
+``` Explain those brain oscillations you mentioned in the summary in a very simplified way using easy words, because I did not understand that topic yet.```
+
+These were usually extremely easy to understand, and after that, I could ask for a little more detailed and complicated explanation.
 Using the knowledge I gained from understanding the easy explanation, I then managed to understand the more complex one as well. 
 This trick helped me a lot for difficult topics. 
+
+``` Now give me a more detailed and precise explanation of the same topic, with less focus on making it extremely simplified, but still explain it in a way that is good and easy to understand.```
 
 
 ## Conclusion
 
 My experience with ChatGPT for exam preparation has been overwhelmingly positive. It changed my study habits for the better and made learning more engaging and efficient. If you're considering using AI for your studies, I highly recommend giving it a try!  
-But I always had to remind myself that this is a tool, not a shortcut, and I still needed to put in the work. Also, cross-checking all information was important. 
+
+But, I always had to remind myself that this is a tool, not a shortcut, and I still needed to put in the work. Also, cross-checking all information was important. 
 First, this helped in gaining even better understanding, second, ChatGPT summarized and explained most things extremely well, but it did make 1-2 mistakes in total, which isn't a lot, but still shows that verifying information is important.
 
 
