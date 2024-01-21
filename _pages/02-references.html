@@ -9,6 +9,15 @@ header:
 excerpt: "Webseiten, die ich gestaltet oder bei denen ich mitgewirkt habe"
 
 
+neurotidal:
+- title: "NeuroTidal - audiovisual art"
+  image_path: /images/references/neurotidal-logo.webp
+  url: "https://neurotidal.com/"
+  btn_label: "Zur Webseite"
+  btn_class: "btn--inverse"
+  excerpt: "Ich habe mich sehr gefreut, zum ersten mal eine Band-Website erstellen zu können - hier ist das Ergebnis!"
+
+
 peter:
 - title: "Peter Hruschka"
   image_path: /images/references/peterhruschka-logo-references.webp
@@ -160,7 +169,11 @@ req42_docs:
   excerpt: "Tipps zur Verwendung des req42-Templates."
 ---
 
-<div class="references_dark" id="ref-zero">
+<div class="references_bright" id="ref-eighteen">
+  {% include feature_row id="neurotidal" type="right" %}
+</div>
+
+<div class="references_dark hide-for-fade-in" id="ref-zero">
   {% include feature_row id="peter" type="left" %}
 </div>
 
