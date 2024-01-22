@@ -9,7 +9,7 @@ header:
 excerpt: "Deine unterschiedlichen Optionen für eine von mir für dich gestaltete Website"
 ---
 
-# Standard-Homepage <small> <i class="fas fa-laptop"></i> <small class="price"> (Festpreis 299€ + buchbare Extras) </small> </small>
+# Standard-Homepage <small>  <small class="price"> (Festpreis 299€ + buchbare Extras) </small> </small>
 
 ### Beinhaltet: 
 - Deinen eigenen Inhalt
@@ -58,3 +58,36 @@ dann kann ich Dir *cookie-freies* und *privatsphären-freundliches* Tracking mit
 ##### Fortgeschrittene Suchmaschinenoptimierung <small class="price"> (+49€) </small>
 Du willst noch besser bei Google und anderen Suchmaschinen gefunden werden?
 Dann buche das extra SEO-Paket zu deiner Website hinzu. Grundlegende Suchmaschinenoptimierung ist natürlich bei jeder von mir erstellten Website inkludiert!
+
+<hr class="big-sep">
+
+# Premium-Homepage <small> <small class="price"> (Individueller Preis) </small> </small>
+
+Individuelles Design ganz nach deinen Wünschen!    
+
+<small> Preis nach Absprache, abhängig vom Umfang der Site und deinen genauen Wünschen. </small>
+
+<hr class="big-sep">
+
+# Re-Design deiner bestehenden Website <small> <small class="price"> <br> (Preis wird festgelegt nach Begutachtung deiner bisherigen Site) </small> </small>
+
+Du hast schon eine Website, bist aber unzufrieden damit?  
+Ich entwerfe auf Basis deiner bisherigen Website ein neues Design – responsiv, modern, praktisch und gutaussehend!  
+Meine Designvorschläge und deine eigenen Wünsche werden eingearbeitet.  
+
+<small> Preis nach Absprache, abhängig vom Umfang der alten Site und deinen genauen Wünschen. </small>
+
+<hr class="big-sep">
+
+# Beratung zu deiner bestehenden Website <small>  <small class="price"> <br> (Preis zwischen kostenfrei und 99€) </small> </small>
+
+Du hast schon eine Website, bist aber unsicher, ob sie sinnvoll, praktisch und zielführend gestaltet ist?  
+Bei mir kriegst du Beratung zu deiner Site!  
+Ich sage dir, was an deiner Website schon super ist, aber auch, was Verbesserungsbedarf hat.  
+Du erhältst konkrete Vorschläge und Ideen zur Optimierung deiner Site, damit du das Beste herausholen kannst!  
+
+<small> 49-99€ je nach Umfang deiner Website.<br>
+Wenn ich dir keine hilfreichen Tipps geben kann oder wenn du nach der Beratung bei mir ein Re-Design deiner Website buchst,
+ist die Beratung kostenfrei!</small>
+
+
