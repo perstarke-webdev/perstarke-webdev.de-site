@@ -19,7 +19,7 @@ Eine Webseite vom gleichen Aufbau wie diese hier - du lieferst die Texte (und au
 * [Navigationsleiste](/gallery#navigationsleiste) & [Fußzeile](/gallery#fußzeile)
 * [Favicon](/gallery#favicon) <small markdown="1"> *(Logo/Bild, welches im Tab neben dem Namen deiner Seite gezeigt wird* </small>
 * Gesamte Webseite optimiert für minimalen Energiebedarf - *green and sustainable IT*
-* Grundlegende Optimierung deiner Seite für Suchmaschinen (SEO))
+* Grundlegende Optimierung deiner Seite für Suchmaschinen (SEO)
 
 <hr class="big-sep">
 
