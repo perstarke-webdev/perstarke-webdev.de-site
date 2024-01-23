@@ -9,7 +9,9 @@ header:
 excerpt: "Deine unterschiedlichen Optionen für eine von mir für dich gestaltete Website"
 ---
 
-# Standard-Homepage <small>  <small class="price"> (Festpreis 299€ + buchbare Extras) </small> </small>
+# Standard-Homepage <br> <small> <small class="price"> (Festpreis 299€ + buchbare Extras) </small> </small>
+
+<div class="additional-text" style="display: none;" Markdown="1">
 
 ### Beinhaltet: 
 - Deinen eigenen Inhalt
@@ -59,17 +61,28 @@ dann kann ich Dir *cookie-freies* und *privatsphären-freundliches* Tracking mit
 Du willst noch besser bei Google und anderen Suchmaschinen gefunden werden?
 Dann buche das extra SEO-Paket zu deiner Website hinzu. Grundlegende Suchmaschinenoptimierung ist natürlich bei jeder von mir erstellten Website inkludiert!
 
-<hr class="big-sep">
 
-# Premium-Homepage <small> <small class="price"> (Individueller Preis) </small> </small>
+</div>
+<button class="btn-custom" onclick="toggleAdditionalText(this)">Mehr anzeigen</button>
+<br><br>
+
+
+
+# Premium-Homepage <br> <small> <small class="price"> (Individueller Preis) </small> </small>
+
+<div class="additional-text" style="display: none;" Markdown="1">
 
 Individuelles Design ganz nach deinen Wünschen!    
 
 <small> Preis nach Absprache, abhängig vom Umfang der Site und deinen genauen Wünschen. </small>
 
-<hr class="big-sep">
+</div>
+<button class="btn-custom" onclick="toggleAdditionalText(this)">Mehr anzeigen</button>
+<br><br>
 
 # Re-Design deiner bestehenden Website <small> <small class="price"> <br> (Preis wird festgelegt nach Begutachtung deiner bisherigen Site) </small> </small>
+
+<div class="additional-text" style="display: none;" Markdown="1">
 
 Du hast schon eine Website, bist aber unzufrieden damit?  
 Ich entwerfe auf Basis deiner bisherigen Website ein neues Design – responsiv, modern, praktisch und gutaussehend!  
@@ -77,9 +90,14 @@ Meine Designvorschläge und deine eigenen Wünsche werden eingearbeitet.
 
 <small> Preis nach Absprache, abhängig vom Umfang der alten Site und deinen genauen Wünschen. </small>
 
-<hr class="big-sep">
+</div>
+<button class="btn-custom" onclick="toggleAdditionalText(this)">Mehr anzeigen</button>
+<br><br>
+
 
 # Beratung zu deiner bestehenden Website <small>  <small class="price"> <br> (Preis zwischen kostenfrei und 99€) </small> </small>
+
+<div class="additional-text" style="display: none;" Markdown="1">
 
 Du hast schon eine Website, bist aber unsicher, ob sie sinnvoll, praktisch und zielführend gestaltet ist?  
 Bei mir kriegst du Beratung zu deiner Site!  
@@ -91,3 +109,24 @@ Wenn ich dir keine hilfreichen Tipps geben kann oder wenn du nach der Beratung b
 ist die Beratung kostenfrei!</small>
 
 
+</div>
+<button class="btn-custom" onclick="toggleAdditionalText(this)">Mehr anzeigen</button>
+
+
+
+
+
+<script>
+    function toggleAdditionalText(button) {
+        const parent = button.parentElement;
+        const additionalText = parent.querySelector('.additional-text');
+
+        if (additionalText.style.display === 'none') {
+            additionalText.style.display = 'block';
+            button.textContent = 'Verbergen';
+        } else {
+            additionalText.style.display = 'none';
+            button.textContent = 'Mehr anzeigen';
+        }
+    }
+</script>

@@ -6,10 +6,10 @@ main:
     url: /about
   - title: "Referenzen"
     url: /references
-  - title: "Posts"
-    url: /posts
   - title: "Leistungen"
     url: /services
+  - title: "Posts"
+    url: /posts
   - title: "Kontakt"
     url: /contact
 

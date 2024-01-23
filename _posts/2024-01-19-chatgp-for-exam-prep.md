@@ -75,7 +75,7 @@ First, I recapped all lectures. For each lecture / overarching topic I used a ne
   
   ``` This is the first part of the lecture on attention. Please sum it up for me.```   
   
-  (It has been shown that being polite to ChatGPT can acutally increase the answer quality).
+  (It has been shown that being polite to ChatGPT can actually increase the answer quality).
 - **Accuracy Check**: I compared ChatGPT's summaries with the original slides and internet research to correct any misinformation.
 - **Interactive Learning**: After each lecture, I asked ChatGPT for questions covering all topics from this lecture. 
 
