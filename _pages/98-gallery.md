@@ -3,8 +3,7 @@ layout: splash
 title: Beispiel-Bilder
 permalink: /gallery
 header:
-    overlay_image: /images/splash/webdev.jpg
-    caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+    overlay_image: /images/photos/sydney-8.webp
     overlay_filter: rgba(0, 0, 0, 0.6)
 ---
 
