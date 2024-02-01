@@ -27,6 +27,26 @@
   .canvas-container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .span-3 {
+      grid-column: span 1;
+  }
+
+  .span-4 {
+      grid-column: span 1;
+  }
+
+  .span-5 {
+      grid-column: span 1;
+  }
+
+  .span-6 {
+      grid-column: span 1;
+  }
+
+  .span-2-mobile {
+      grid-column: span 2;
+  }
 }
 
 a.grid-link {
