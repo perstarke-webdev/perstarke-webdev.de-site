@@ -18,7 +18,7 @@ Web development clients often face challenges in articulating their visions and 
 The Homepage Canvas addresses this issue by offering a structured framework that encourages clarity and brevity. It provides a clear and concise format for collecting and organizing ideas, wishes, and preferences for website projects.
 
 The Homepage Canvas is licensed under the [Creative Commons License](https://creativecommons.org/licenses/by/4.0/). That means you are free to use, share and adapt the Homepage Canvas, while giving appropriate credit, providing a link to the license and indicating if changes were made.
-More information about the Canvas can be found on the [website of it’s creator, Per Starke](https://perstarke-webdev.de/canvas).
+More information about the Canvas can be found on the [Homepage Canvas Website](https://perstarke-webdev.de/canvas).
 
 The Homepage Canvas is divided into three main sections: Content Strategy, Style, and Organizational. Each section is further broken down into specific questions designed to elicit crucial information from clients. By providing a structured framework, the Homepage Canvas helps clients articulate their goals, content requirements, design preferences, and functional requirements with clarity and precision.
 
@@ -35,11 +35,11 @@ By guiding clients through these structured prompts, the Homepage Canvas ensures
 
 ## Examples
 The Homepage Canvas has been used for real world projects, including the website for [NeuroTidal](https://neurotidal.com/).  
-Here’s what the Canvas for the NeuroTidal Website looks like:
+Here’s what the Canvas for the NeuroTidal Website looks like:   
 <small> (wrong example, need to change that, it's a placeholder) </small>   
-![NeuroTidal Homepage Canvas](insert_image_url_here)
+![NeuroTidal Homepage Canvas](/downloads/canvas/examples/homepage-canvas-perstarke-webdev.webp)
 
 
-## What are you wating for?
+## What are you waiting for?
 Whether you are a web developer looking for a way to optimize communication with your clients, or you are looking for a new website for yourself, give the Homepage Canvas a try! 
 
