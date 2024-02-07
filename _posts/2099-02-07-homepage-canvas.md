@@ -41,5 +41,5 @@ Here’s what the Canvas for the NeuroTidal Website looks like:
 
 
 ## What are you waiting for?
-Whether you are a web developer looking for a way to optimize communication with your clients, or you are looking for a new website for yourself, give the Homepage Canvas a try! 
+Whether you are a web developer looking for a way to optimize communication with your clients, or you are looking for a new website for yourself, [give the Homepage Canvas a try!](https://perstarke-webdev.de/canvas) 
 
