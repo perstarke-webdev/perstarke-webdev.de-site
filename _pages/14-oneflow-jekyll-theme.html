@@ -18,7 +18,7 @@ header:
 excerpt: "**Crafting effortless One-Pager Websites**"
 ---
 
-<h1> What it is</h1>
+<h1>What it is</h1>
 
 OneFlow is a Jekyll Theme designed to create <b class="light-color">stunning, clear and practical modern One-Pager Websites</b>.
 It offers lots of features and customization options, so you can easily create a Site that
@@ -34,3 +34,44 @@ It is <b class="light-color">straightforward and easy to use</b>. You just need 
    rel="noopener noreferrer nofollow" target="_blank">
     GitHub Repository and can get started straightaway.
 </a>
+
+
+<hr class="big-sep">
+
+
+<h1>Getting started & development</h1>
+
+<h3>Fork and clone the repository</h3>
+The <b class="light-color">vision of this theme</b> is <b class="light-color">simplicity and accessibility</b>, to easily create stunning websites from scratch.
+Therefore, it's not available as a classic gem-based Jekyll theme, but as a ready-to-use GitHub repository that you just need to fork and clone.
+So, get ahead and make a fork of this repository, rename it if you like to suit the name of the site you want to create, locally clone it, and directly start editing!
+
+<h3>How to start a development docker container</h3>
+To test your website and see all of your changes in real-time without deploying it online, you can easily build your site locally.
+OneFlow comes with build-in docker configuration using
+<a href="https://github.com/BretFisher/jekyll-serve" rel="noopener noreferrer nofollow" target="_blank">BretFisher's jekyll serve</a>.
+<ul>
+    <li>Make sure you have <a rel="noopener noreferrer nofollow" target="_blank" href="https://bundler.io/">Bundler</a>
+        and <a rel="noopener noreferrer nofollow" target="_blank" href="https://www.docker.com/">Docker</a> installed</li>
+    <li>Open up a terminal, navigate to your local repository, and run <code>docker compose up</code>.</li>
+</ul>
+Your site will then be visible at <i>http://0.0.0.0:4000/</i> in any browser.
+
+
+<hr class="big-sep">
+
+
+<h1>Start editing your Site</h1>
+The main parts you want to edit are:
+<ul>
+    <li><code>README.md</code> for the readme of your repository,</li>
+    <li><code>/_data/navigation.yml</code> for the navigation links,</li>
+    <li><code>/_pages/index.html</code> for your main content,</li>
+    <li><code>/_pages/imprint.html</code> for the imprint & privacy note,</li>
+    <li><code>_config.yml</code> for the basic setup of your site,</li>
+    <li><code>/assets/images</code> for all images and graphics you use on your site,</li>
+    <li><code>/assets/css/custom-styles.css</code> if you want to add custom css styles,</li>
+    <li><code>/assets/fonts</code> if you want to add custom fonts and</li>
+    <li><code>/_includes/editables</code>
+        if you create a website for a client who regularly wants to change parts of the site him/herself.</li>
+</ul>
