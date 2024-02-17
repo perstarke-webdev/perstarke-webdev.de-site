@@ -7,6 +7,13 @@ excerpt: "Join me on the journey of crafting OneFlow, a Jekyll theme designed fo
 
 Join me on the journey of crafting OneFlow, a Jekyll theme designed for seamless One-Pager websites. Why did I choose a GitHub repository over the conventional official theme route? The answer is as straightforward as OneFlow's structure. Let's delve into the code and explore why this laid-back approach aligns with my vision.
 
+Check out these links to get impressions and details about OneFlow:
+- [OneFlow GitHub Repository](https://github.com/perstarke-webdev/oneflow-jekyll-theme)
+- [OneFlow Theme Website](https://oneflow-jekyll-theme.github.io/)
+- [Example Website One](https://oneflow-jekyll-theme-example-one.github.io/)
+- [Example Website Two](https://oneflow-jekyll-theme-example-two.github.io/)
+- [Extensive Documentation](/oneflow-jekyll-theme)
+
 # Vision
 OneFlow is the result of a vision to simplify the process of creating One-Pager websites. It's all about ease and efficiency, from installation to customization. This theme is perfect for individuals and small businesses who want a beautiful online presence without the headache of complex website building. That is also why I chose to offer the theme as a simple GitHub Repository instead of the classical gem-based theme - you just need to clone the repository, and can start editing your site right away!
 
@@ -50,6 +57,6 @@ I would like to thank everyone who contributed to the development of OneFlow, in
 
 # Conclusion
 In conclusion, OneFlow is a Jekyll theme designed for simplicity, ease of use, and flexibility. 
-Whether you're a blogger, freelancer, or small business owner, 
+Whether you're a Web developer, small business owner, freelancer or something else, 
 OneFlow provides a hassle-free way to create a beautiful and immersive website. 
 I hope you enjoy using OneFlow as much as I enjoyed creating it!
