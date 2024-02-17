@@ -369,10 +369,29 @@ OneFlow comes with build-in support for <a href="https://fontawesome.com/" rel="
 Font Awesome 6.5.1 is included and hosted locally within OneFlow. Nothing for you to do but apply the icons!
 Just add an i-tag with the respective classes, check out the Font Awesome Website to find all their icons.
 
+<h2>Editables</h2>
+As a Web Developer, especially for private customers or small companies, I've came across the following situation a few times:
+The <b class="light-color">client wants to edit parts of the website him/herself regularly</b>, for example to add or delete upcoming events or dates.
+Large companies can pay web developers for that, but private customers or small companies often understandably can't afford
+long-term maintenance costs. <br>
+To make this as easy as possible, utilize the editables-feature from OneFlow!
+Put any HTML/Markdown part that the client needs to edit in a separate file and place this file in the
+<code>/_includes/editables</code> folder, then include it on the main page with
+<code>{&percnt; include /editables/filename.html &percnt;}</code>.<br>
+The client then only needs to make changes within the given file, which makes it as as simple and as little error-prone as possible.
 
-<!-- Editables -->
-<!-- Further customization via includes, layouts and SASS -->
-<!-- Support / Contact -->
+<h2>Further customization</h2>
+OneFlow offers huge customization options without the need to touch any of the layouts, includes or sass files.
+If you need even further customization, these directories and files are included in the GitHub Repository,
+so you can go ahead and edit all files in every way you want for further customization and fine-granular styling.
+The layout structure can be edited within <code>/_layouts/default.html or page.html</code>. The scss stylesheets
+are located within the<code>/_sass</code> directory, and includes like the page hero, footer, masthead and also utilities
+like the gallery, rounded images or image-text-rows are located within the <code>/_includes</code> folder and can be edited right there.
+
+<h2>Support / Contact</h2>
+If you have any questions or feedback, don't hesitate to contact me!
+You can reach me via <a href="mailto: per@starke-team.de">Email</a>, <a href="https://www.instagram.com/per.starke/">Instagram</a> or by writing a <a href="https://github.com/perstarke-webdev/oneflow-jekyll-theme/issues">GitHub Issue in the OneFlow Repository</a>.
+
 <!-- Contribution -->
 
 
