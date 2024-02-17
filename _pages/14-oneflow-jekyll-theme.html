@@ -58,6 +58,21 @@ OneFlow comes with build-in docker configuration using
 Your site will then be visible at <i>http://0.0.0.0:4000/</i> in any browser.
 
 
+<hr class="big-sep">
+
+<h1>Markdown and HTML</h1>
+Use raw and flexible HTML or clear markdown to write your content.
+Markdown is rendered with <a href="https://kramdown.gettalong.org/" rel="noopener noreferrer nofollow" target="_blank">kramdown</a>,
+which supports applying css classes to the Markdown. That means, you can add notices, boxes and other utilities even to your Markdown content,
+as simple as <code>"Text you want to add the classes to {: .class1 .class2}"</code>.
+This documentation will show everything in HTML, but as shown in the lines above, applying css classes is also easily possible with Markdown.
+
+
+<hr class="big-sep">
+
+<h1>Responsive Design</h1>
+All of OneFlows features are 100% responsive and adapt to different screen sizes, so your site looks good
+on all devices!
 
 
 
@@ -138,3 +153,57 @@ image for <code>background-image</code>, and setting a different image (or diffe
 <code>background-image-mobile</code>. Furthermore, it is also strongly recommended to apply a slightly transparent
 overlay to the background image, for better readability of all texts on your site. You can set this
 by setting <code>background-image-overlay : rgba(255, 255, 255, 0.5)</code> or any other rgba color value you like.
+
+<h2>Popup</h2>
+As some countries, like Germany, require <b class="light-color">information and consent about cookie-usage</b> and the usage of a CDN
+for example for deploying sites on GitHub pages, OneFlow comes with a build-in Popup for that purpose.
+You can enable or disable the Popup in <code>config.yml</code> with true/false for <code>show-popup</code>.
+Do not use quotation marks for setting true/false values in the configuration file.
+<br><br>
+The existing version of the popup is a suggestion and should (no legal advice given) fulfill german laws regarding cookie and cdn-usage consent.
+<br><br>
+To edit the content of the popup, navigate to <code>/_includes/popup.html</code> and edit its HTML.
+This file also contains a script-tag with the javascript for the popup. This script sets a cookie for one day,
+when the user clicks on the "Agree"-button, so the popup is not displayed on every page reload, but only after one day.
+Edit the line <code>expiresDate.setDate(expiresDate.getDate() + 1);</code> to set this to a different time interval.
+
+<h2>Content & Basic home page setup</h2>
+To start adding content to your main page, navigate to <code>/_pages/index.html</code>.
+Remove the example content, and start adding your own!
+<br><br>
+First, you need to set some basics in the YAML front matter.
+So, start with:<br>
+<code>
+    ---<br>
+    layout: page<br>
+    title: "The Title That Should Display In Your Page Hero"<br>
+    excerpt: "The Sub-Title Below Your Main Title"<br>
+    permalink: /<br>
+    ---
+</code><br><br>
+You can furthermore customize the <b class="light-color">Page Hero</b>, which is the first thing catching the visitors eyes!
+The Page Hero can include:
+<ul>
+    <li>A title</li>
+    <li>A subtitle</li>
+    <li>An image</li>
+    <li>An image overlay</li>
+    <li>A caption</li>
+    <li>Action buttons</li>
+</ul>
+Set and customize them like so:<br>
+<code>
+    header:
+    overlay_image: /assets/images/header.webp
+    overlay_filter: rgba(0, 0, 0, 0.6)
+
+    actions:
+    - label: "Get Started"
+    url: https://github.com/perstarke-webdev/oneflow-jekyll-theme?tab=readme-ov-file#oneflow-jekyll-theme
+    blank: true
+    - label: "Minimal Mistakes, the base for this theme"
+    url: https://github.com/mmistakes/minimal-mistakes
+    blank: true
+
+    caption: "Photo by **[Alexandros Margo Photography](https://www.instagram.com/alexandrosmargo?igsh=eHl2cGx0amVocmJi)**"
+</code>
