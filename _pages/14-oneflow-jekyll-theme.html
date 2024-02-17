@@ -53,7 +53,11 @@ It is <b class="light-color">straightforward and easy to use</b>. You just need 
                 <li><a href="#basic-setup">Content & Basic home page setup</a>
                     <ul>
                         <li><a href="#skins">Color skins</a></li>
-                        <li><a href="#masthead">Masthead</a></li>
+                        <li><a href="#masthead">Masthead</a>
+                            <ul>
+                                <li><a href="#nav">Navigation</a></li>
+                            </ul>
+                        </li>
                         <li><a href="#background">Background</a></li>
                         <li><a href="#popup">Popup</a></li>
                         <li><a href="#sections">Sections</a></li>
@@ -191,6 +195,13 @@ You can set the title by setting <code>title: "your-website-title"</code>.
 Set the subtitle with <code>subtitle: "your-subtitle"</code> or set this to <code>""</code> to have no subtitle.
 If you want to display a different title than your default site title in the masthead, you can set this with
 <code>masthead_title: "your-masthead-title"</code>. Set this to <code>""</code> to display no title.
+
+<h3 id="nav">Navigation</h3>
+To edit the links in the navigation bar, head over to <code>/_data/navigation.yml</code>.
+Unter the main-variable, you can set the title and url each nav link should point to.
+For linking to a section on the main page, include a "#" before the id, and set the id-attribute within the section-tag or the header-tag of that section.
+For external links, you can set blank to true, so the page opens in a new tab, and as URL include the full url with https://
+at the beginning.
 
 <h2 id="background">Background</h2>
 As the background for your site, you can either stick with the background colors that come with your chosen color skin,
