@@ -193,17 +193,19 @@ The Page Hero can include:
 </ul>
 Set and customize them like so:<br>
 <code>
-    header:
-    overlay_image: /assets/images/header.webp
-    overlay_filter: rgba(0, 0, 0, 0.6)
-
-    actions:
-    - label: "Get Started"
-    url: https://github.com/perstarke-webdev/oneflow-jekyll-theme?tab=readme-ov-file#oneflow-jekyll-theme
-    blank: true
-    - label: "Minimal Mistakes, the base for this theme"
-    url: https://github.com/mmistakes/minimal-mistakes
-    blank: true
-
-    caption: "Photo by **[Alexandros Margo Photography](https://www.instagram.com/alexandrosmargo?igsh=eHl2cGx0amVocmJi)**"
-</code>
+    &nbsp;&nbsp;header:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;overlay_image: /assets/images/header.webp<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;overlay_filter: rgba(0, 0, 0, 0.6)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;caption: "Photo by **[Text](Link)**"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;actions:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- label: "Get Started"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;url: "https://url-to-link-to.com"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;blank: true<
+</code><br><br>
+Captions and labels support Markdown.
+You can add as many <b class="light-color">action buttons</b> as you like. The have a label, a URL and a "blank"-characteristic.
+Blank is either true or false and determines, whether the link opens up in a new tab or not. If this is true, the HTML a-tag
+contains <code>target="_blank"</code> as well as <code>rel="noopener noreferrer nofollow"</code>, which is important
+so that opening link in a new tab doesn't come with security and SEO impairments.
+<br><br>
+Remember that indentation is important for the YAML front matter.
