@@ -251,3 +251,15 @@ cookie banner
     z-index: 999;
     font-size: 70%
 }
+
+
+
+
+code {
+    background-color: grey !important;
+    font-size: 0.9rem !important;
+    color: white;
+    border-radius: 3px;
+    padding: 0 6px !important;
+    font-style: italic;
+}
