@@ -111,6 +111,18 @@ The Masthead, including the navigation bar, offers a few customization options.
 All of this configuration can be done in <code>config.yml</code>.<br><br>
 First, you can decide whether you like it to be <b class="light-color">sticky</b>, meaning it will stay visible on top of the page even
 when you scroll down, or not.
-To make the masthead sticky, set <code>sticky-masthead: true</code>.<br><br>
+To make the masthead sticky, set <code>sticky-masthead: true</code>.
+<br><br>
 You can furthermore easily set the opacity of the masthead with <code>masthead-opacity: xxx</code>, where xxx is
 a number between 0 and 1. A good starting point that works good for most sites is 0.8 to 0.9.
+<br><br>
+The masthead can either contain a logo (or any other image), or your site title and optionally a sub-title.
+If you want to display your logo / image there, set <code>logo: /assets/images/logo.webp</code> or the respective
+path to the image and filetype you want to use.
+If you don't want your logo / image there, remove the logo path or out-comment it by setting <code>#</code> behind the <code>:</code> like so:
+<code> logo: #/assets/...</code>.
+By default, the site title, which is also shown in the browser tab, is then displayed instead of the logo.
+You can set the title by setting <code>title: "your-website-title"</code>.
+Set the subtitle with <code>subtitle: "your-subtitle"</code> or set this to <code>""</code> to have no subtitle.
+If you want to display a different title than your default site title in the masthead, you can set this with
+<code>masthead_title: "your-masthead-title"</code>. Set this to <code>""</code> to display no title.
