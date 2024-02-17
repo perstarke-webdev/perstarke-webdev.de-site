@@ -104,7 +104,7 @@ The main parts you want to edit are:
 OneFlow comes with 10 diverse color skins you can easily apply.
 These are: <i>default</i>, <i>air</i>, <i>aqua</i>, <i>contrast</i>, <i>dark</i>, <i>dirt</i>, <i>neon</i>, <i>mint</i>, <i>plum</i> and <i>sunrise</i>.
 Check the <a href="https://github.com/mmistakes/minimal-mistakes?tab=readme-ov-file#skins-color-variations" rel="noopener noreferrer nofollow" target="_blank">Minimal Mistakes documentation about color skins</a> for example images.
-To change color skins, open <code>config.yml</code> and look for <code>oneflow-skin</code>. Set your preferred skin there.
+Define your preferred skin by changing the value of <code>oneflow-skin</code> in <code>_config.yml.</code>.
 
 <h2>Masthead</h2>
 The Masthead, including the navigation bar, offers a few customization options.
@@ -113,10 +113,10 @@ First, you can decide whether you like it to be <b class="light-color">sticky</b
 when you scroll down, or not.
 To make the masthead sticky, set <code>sticky-masthead: true</code>.
 <br><br>
-You can furthermore easily set the opacity of the masthead with <code>masthead-opacity: xxx</code>, where xxx is
+You can furthermore easily set the <b class="light-color">opacity</b> of the masthead with <code>masthead-opacity: xxx</code>, where xxx is
 a number between 0 and 1. A good starting point that works good for most sites is 0.8 to 0.9.
 <br><br>
-The masthead can either contain a logo (or any other image), or your site title and optionally a sub-title.
+The masthead can either contain a <b class="light-color">logo (or any other image)</b>, or your site title and optionally a sub-title.
 If you want to display your logo / image there, set <code>logo: /assets/images/logo.webp</code> or the respective
 path to the image and filetype you want to use.
 If you don't want your logo / image there, remove the logo path or out-comment it by setting <code>#</code> behind the <code>:</code> like so:
@@ -126,3 +126,15 @@ You can set the title by setting <code>title: "your-website-title"</code>.
 Set the subtitle with <code>subtitle: "your-subtitle"</code> or set this to <code>""</code> to have no subtitle.
 If you want to display a different title than your default site title in the masthead, you can set this with
 <code>masthead_title: "your-masthead-title"</code>. Set this to <code>""</code> to display no title.
+
+<h2>Background</h2>
+As the background for your site, you can either stick with the background colors that come with your chosen color skin,
+or you can apply a <b class="light-color">background image</b> instead.
+Background image settings are all done in <code>config.yml</code>.
+Set <code>background-image: "/path/to/your/background-image.webp"</code>. To have no background-image, remove or out-comment this line.
+When working with a background image, it is strongly recommended to use a horizontal background image for the desktop
+version of your site and an upright image for the mobile version. You can easily do this, by using a horizontal
+image for <code>background-image</code>, and setting a different image (or different version of the same image) for
+<code>background-image-mobile</code>. Furthermore, it is also strongly recommended to apply a slightly transparent
+overlay to the background image, for better readability of all texts on your site. You can set this
+by setting <code>background-image-overlay : rgba(255, 255, 255, 0.5)</code> or any other rgba color value you like.
