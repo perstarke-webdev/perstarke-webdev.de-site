@@ -200,7 +200,7 @@ Set and customize them like so:<br>
     &nbsp;&nbsp;&nbsp;&nbsp;actions:<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- label: "Get Started"<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;url: "https://url-to-link-to.com"<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;blank: true<
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;blank: true
 </code><br><br>
 Captions and labels support Markdown.
 You can add as many <b class="light-color">action buttons</b> as you like. The have a label, a URL and a "blank"-characteristic.
@@ -209,3 +209,136 @@ contains <code>target="_blank"</code> as well as <code>rel="noopener noreferrer 
 so that opening link in a new tab doesn't come with security and SEO impairments.
 <br><br>
 Remember that indentation is important for the YAML front matter.
+
+<h2>Sections</h2>
+OneFlow offers <b class="light-color">alternating colored sections</b>.<br><br>
+If you do not want alternating colors, there is no need to apply any section tags, just write all of your content
+outside of any section tags.
+To separate different parts of your page, you can drop in a nicely styled big <b class="light-color">separation line</b> easily with <br>
+<code>&lt;hr class="section-sep"&gt;</code>. You can use this both with and without alternating colored sections.
+<br><br>
+To apply alternating colored sections, do the following: <br>
+Wrap every section that should be normally colored in <br>
+<code>
+    &lt;section class="site-section" id="section-2"&gt;<br>
+        // Content within the section<br>
+    &lt;/section&gt;
+</code><br>
+For every alternatively colored section, add the class <code>alternative-color</code> to the section. <br>
+<h4>Some notes about that:</h4>
+Alternatively colored sections don't look too good before the footer. So, it is recommended to always
+let the last section of your site be a normally colored one.<br>
+Furthermore, if you want the first section of your site to be an alternatively colored one, also add the class
+<code>first-section</code> to it. This makes sure the color starts directly below the Page Hero, and there is no small
+space in a different color in between Page Hero and first section.
+
+<h2>Utilities</h2>
+Of course, OneFlow comes with build-in styles for normal Markdown/HTML tags like headers, paragraphs, anchor-tags (links) and so on.
+There are furthermore some utilities that you can use to organize and style your content in a good-looking and structured way.
+Check out the <a href="https://oneflow-jekyll-theme.github.io/" rel="noopener noreferrer nofollow" target="_blank">theme website</a> to see example of all of these utilities!
+<h3>Notices</h3>
+Notices highlight a paragraph or a div. Just add the <code>notice</code> class to any element, easy as that.<br>
+Apart from the standard-notice, there are some others with different colors, which are:
+<ul>
+    <li><code>notice--primary</code></li>
+    <li><code>notice--success</code></li>
+    <li><code>notice--warning</code></li>
+    <li><code>notice--danger</code></li>
+    <li><code>notice--info</code></li>
+</ul>
+Apply these classes, instead of the notice-class, to use the different colors.
+
+<h3>Boxes</h3>
+Boxes also highlight your content, but with a different styling. Just apply the <code>box</code> class to any div-element
+to put it into a box with a nice little rounded border and very subtle background.
+Just as notices, boxes offer the same color variations. Keep the box-class with your divs and add one of the following:
+<ul>
+    <li><code>box--primary</code></li>
+    <li><code>box--success</code></li>
+    <li><code>box--warning</code></li>
+    <li><code>box--danger</code></li>
+    <li><code>box--info</code></li>
+</ul>
+Boxes furthermore can be put into a div with the class <code>box-container</code>.
+Within that container, you can apply the <code>box-half</code> class to make a box fill half of the width and therefore
+be able to fit 2 boxes next to each other, or the <code>box-third</code> class to make a box fill a third of the width
+and therefore be able to fit 3 boxes next to each other. On small screens, boxes stack below each other responsively.
+
+<h3>Buttons</h3>
+Add the <code>btn</code> class plus any of the following classes to any a-tag to style the link as a button:
+<ul>
+    <li><code>btn--primary</code></li>
+    <li><code>btn--success</code></li>
+    <li><code>btn--warning</code></li>
+    <li><code>btn--danger</code></li>
+    <li><code>btn--info</code></li>
+    <li><code>btn--inverse</code></li>
+</ul>
+You can furthermore edit the size of the button with the following classes:
+<ul>
+    <li><code>btn--x-large</code></li>
+    <li><code>btn--large</code></li>
+    <li><code>btn--small</code></li>
+</ul>
+
+
+<h3>Responsive video-embed</h3>
+Embed a video from YouTube, Vimeo, Google Drive, or bilibili that responsively sizes to fit the width of its parent.
+This feature is taken un-edit from Minimal Mistakes,
+<a href="https://mmistakes.github.io/minimal-mistakes/docs/helpers/#responsive-video-embed" rel="noopener noreferrer nofollow" target="_blank">
+    see the Minimal Mistakes Docu about responsive video embed here
+</a>.
+
+<h3>Galleries</h3>
+The gallery is as well taken from Minimal Mistakes, slightly edited in style to better fit OnePager Websites.
+<a href="https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery" rel="noopener noreferrer nofollow" target="_blank">
+    Check the Minimal Mistakes Docu about galleries here
+</a>.
+
+<h3>Rounded images</h3>
+Rounded images are a cool helper that displays a circular image in the top of a box,
+so that you can add header and a caption below the image. They add a cool visual element and can provide good structure as well.
+They can be included easily via YAMl front matter.
+Set the front matter like so:   <br>
+<code>
+    round-images:<br>
+    &nbsp;&nbsp; - image-path: "/assets/images/image.webp"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; size: "full"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; header: "text for the header"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; caption: "text for the caption"<br>
+</code><br>
+You can include further rounded image boxes by adding a next "- image-path" and all other necessary variables.
+Size can be either "full", "half" or "third" and determines, how much of the page width the box with the rounded image
+is going to take. With half, two boxes fit next to each other, with third, it's three.<br>
+Include the rounded images anywhere with <code>{&percnt; include rounded-images &percnt;}</code>.<br>
+You can use any other name than "round-images" for the rounded images. Then, you need to include an id in the include,
+like so: <code>{&percnt; include rounded-images id="id-you-chose" &percnt;}</code>. <br>
+Half or third boxes stack below each other responsively on smaller screens.
+
+<h3>Image-text-rows</h3>
+Image-text-rows include an image either on the left or right side, and a header + caption on the other side.
+They optionally can include a button with a link. <br>
+They can be set via YAMl front matter, and offer huge customization options. Create them like so:<br>
+<code>
+    image-text-row:<br>
+    &nbsp;&nbsp; - header: "text for the header"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; excerpt: "text for the caption/excerpt"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; btn-url: "https://your-url.com"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; btn-class: "primary/success/..."<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; btn-label: "label for the button"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; blank: false<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; image-url: "/assets/images/image.webp"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; alt-text: "alternative text for the image"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; image-width "400px"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; image-right: true
+</code><br>
+Leave out btn-url and the other btn-variables to not include a button. <br>
+"Blank" determines whether the link from the button is opened in a new tab or not.   <br>
+"Image-right" sets whether the image is on the right side. With true, it is, with false, it is left. <br>
+Image and text responsively stack below each other on smaller screens, with the image always on top.
+
+
+
+
+
+
