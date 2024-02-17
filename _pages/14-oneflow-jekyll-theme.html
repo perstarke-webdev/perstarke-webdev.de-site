@@ -58,6 +58,21 @@ OneFlow comes with build-in docker configuration using
 Your site will then be visible at <i>http://0.0.0.0:4000/</i> in any browser.
 
 
+<hr class="big-sep">
+
+<h1>Markdown and HTML</h1>
+Use raw and flexible HTML or clear markdown to write your content.
+Markdown is rendered with <a href="https://kramdown.gettalong.org/" rel="noopener noreferrer nofollow" target="_blank">kramdown</a>,
+which supports applying css classes to the Markdown. That means, you can add notices, boxes and other utilities even to your Markdown content,
+as simple as <code>"Text you want to add the classes to {: .class1 .class2}"</code>.
+This documentation will show everything in HTML, but as shown in the lines above, applying css classes is also easily possible with Markdown.
+
+
+<hr class="big-sep">
+
+<h1>Responsive Design</h1>
+All of OneFlows features are 100% responsive and adapt to different screen sizes, so your site looks good
+on all devices!
 
 
 
@@ -97,3 +112,294 @@ The main parts you want to edit are:
     <li><code>/_includes/editables</code>
         if you create a website for a client who regularly wants to change parts of the site him/herself.</li>
 </ul>
+
+
+<h2>Color skins</h2>
+
+OneFlow comes with 10 diverse color skins you can easily apply.
+These are: <i>default</i>, <i>air</i>, <i>aqua</i>, <i>contrast</i>, <i>dark</i>, <i>dirt</i>, <i>neon</i>, <i>mint</i>, <i>plum</i> and <i>sunrise</i>.
+Check the <a href="https://github.com/mmistakes/minimal-mistakes?tab=readme-ov-file#skins-color-variations" rel="noopener noreferrer nofollow" target="_blank">Minimal Mistakes documentation about color skins</a> for example images.
+Define your preferred skin by changing the value of <code>oneflow-skin</code> in <code>_config.yml.</code>.
+
+<h2>Masthead</h2>
+The Masthead, including the navigation bar, offers a few customization options.
+All of this configuration can be done in <code>config.yml</code>.<br><br>
+First, you can decide whether you like it to be <b class="light-color">sticky</b>, meaning it will stay visible on top of the page even
+when you scroll down, or not.
+To make the masthead sticky, set <code>sticky-masthead: true</code>.
+<br><br>
+You can furthermore easily set the <b class="light-color">opacity</b> of the masthead with <code>masthead-opacity: xxx</code>, where xxx is
+a number between 0 and 1. A good starting point that works good for most sites is 0.8 to 0.9.
+<br><br>
+The masthead can either contain a <b class="light-color">logo (or any other image)</b>, or your site title and optionally a sub-title.
+If you want to display your logo / image there, set <code>logo: /assets/images/logo.webp</code> or the respective
+path to the image and filetype you want to use.
+If you don't want your logo / image there, remove the logo path or out-comment it by setting <code>#</code> behind the <code>:</code> like so:
+<code> logo: #/assets/...</code>.
+By default, the site title, which is also shown in the browser tab, is then displayed instead of the logo.
+You can set the title by setting <code>title: "your-website-title"</code>.
+Set the subtitle with <code>subtitle: "your-subtitle"</code> or set this to <code>""</code> to have no subtitle.
+If you want to display a different title than your default site title in the masthead, you can set this with
+<code>masthead_title: "your-masthead-title"</code>. Set this to <code>""</code> to display no title.
+
+<h2>Background</h2>
+As the background for your site, you can either stick with the background colors that come with your chosen color skin,
+or you can apply a <b class="light-color">background image</b> instead.
+Background image settings are all done in <code>config.yml</code>.
+Set <code>background-image: "/path/to/your/background-image.webp"</code>. To have no background-image, remove or out-comment this line.
+When working with a background image, it is strongly recommended to use a horizontal background image for the desktop
+version of your site and an upright image for the mobile version. You can easily do this, by using a horizontal
+image for <code>background-image</code>, and setting a different image (or different version of the same image) for
+<code>background-image-mobile</code>. Furthermore, it is also strongly recommended to apply a slightly transparent
+overlay to the background image, for better readability of all texts on your site. You can set this
+by setting <code>background-image-overlay : rgba(255, 255, 255, 0.5)</code> or any other rgba color value you like.
+
+<h2>Popup</h2>
+As some countries, like Germany, require <b class="light-color">information and consent about cookie-usage</b> and the usage of a CDN
+for example for deploying sites on GitHub pages, OneFlow comes with a build-in Popup for that purpose.
+You can enable or disable the Popup in <code>config.yml</code> with true/false for <code>show-popup</code>.
+Do not use quotation marks for setting true/false values in the configuration file.
+<br><br>
+The existing version of the popup is a suggestion and should (no legal advice given) fulfill german laws regarding cookie and cdn-usage consent.
+<br><br>
+To edit the content of the popup, navigate to <code>/_includes/popup.html</code> and edit its HTML.
+This file also contains a script-tag with the javascript for the popup. This script sets a cookie for one day,
+when the user clicks on the "Agree"-button, so the popup is not displayed on every page reload, but only after one day.
+Edit the line <code>expiresDate.setDate(expiresDate.getDate() + 1);</code> to set this to a different time interval.
+
+<h2>Content & Basic home page setup</h2>
+To start adding content to your main page, navigate to <code>/_pages/index.html</code>.
+Remove the example content, and start adding your own!
+<br><br>
+First, you need to set some basics in the YAML front matter.
+So, start with:<br>
+<code>
+    ---<br>
+    layout: page<br>
+    title: "The Title That Should Display In Your Page Hero"<br>
+    excerpt: "The Sub-Title Below Your Main Title"<br>
+    permalink: /<br>
+    ---
+</code><br><br>
+You can furthermore customize the <b class="light-color">Page Hero</b>, which is the first thing catching the visitors eyes!
+The Page Hero can include:
+<ul>
+    <li>A title</li>
+    <li>A subtitle</li>
+    <li>An image</li>
+    <li>An image overlay</li>
+    <li>A caption</li>
+    <li>Action buttons</li>
+</ul>
+Set and customize them like so:<br>
+<code>
+    &nbsp;&nbsp;header:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;overlay_image: /assets/images/header.webp<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;overlay_filter: rgba(0, 0, 0, 0.6)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;caption: "Photo by **[Text](Link)**"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;actions:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- label: "Get Started"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;url: "https://url-to-link-to.com"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;blank: true
+</code><br><br>
+Captions and labels support Markdown.
+You can add as many <b class="light-color">action buttons</b> as you like. The have a label, a URL and a "blank"-characteristic.
+Blank is either true or false and determines, whether the link opens up in a new tab or not. If this is true, the HTML a-tag
+contains <code>target="_blank"</code> as well as <code>rel="noopener noreferrer nofollow"</code>, which is important
+so that opening link in a new tab doesn't come with security and SEO impairments.
+<br><br>
+Remember that indentation is important for the YAML front matter.
+
+<h2>Sections</h2>
+OneFlow offers <b class="light-color">alternating colored sections</b>.<br><br>
+If you do not want alternating colors, there is no need to apply any section tags, just write all of your content
+outside of any section tags.
+To separate different parts of your page, you can drop in a nicely styled big <b class="light-color">separation line</b> easily with <br>
+<code>&lt;hr class="section-sep"&gt;</code>. You can use this both with and without alternating colored sections.
+<br><br>
+To apply alternating colored sections, do the following: <br>
+Wrap every section that should be normally colored in <br>
+<code>
+    &lt;section class="site-section" id="section-2"&gt;<br>
+        // Content within the section<br>
+    &lt;/section&gt;
+</code><br>
+For every alternatively colored section, add the class <code>alternative-color</code> to the section. <br>
+<h4>Some notes about that:</h4>
+Alternatively colored sections don't look too good before the footer. So, it is recommended to always
+let the last section of your site be a normally colored one.<br>
+Furthermore, if you want the first section of your site to be an alternatively colored one, also add the class
+<code>first-section</code> to it. This makes sure the color starts directly below the Page Hero, and there is no small
+space in a different color in between Page Hero and first section.
+
+<h2>Utilities</h2>
+Of course, OneFlow comes with build-in styles for normal Markdown/HTML tags like headers, paragraphs, anchor-tags (links) and so on.
+There are furthermore some utilities that you can use to organize and style your content in a good-looking and structured way.
+Check out the <a href="https://oneflow-jekyll-theme.github.io/" rel="noopener noreferrer nofollow" target="_blank">theme website</a> to see example of all of these utilities!
+<h3>Notices</h3>
+Notices highlight a paragraph or a div. Just add the <code>notice</code> class to any element, easy as that.<br>
+Apart from the standard-notice, there are some others with different colors, which are:
+<ul>
+    <li><code>notice--primary</code></li>
+    <li><code>notice--success</code></li>
+    <li><code>notice--warning</code></li>
+    <li><code>notice--danger</code></li>
+    <li><code>notice--info</code></li>
+</ul>
+Apply these classes, instead of the notice-class, to use the different colors.
+
+<h3>Boxes</h3>
+Boxes also highlight your content, but with a different styling. Just apply the <code>box</code> class to any div-element
+to put it into a box with a nice little rounded border and very subtle background.
+Just as notices, boxes offer the same color variations. Keep the box-class with your divs and add one of the following:
+<ul>
+    <li><code>box--primary</code></li>
+    <li><code>box--success</code></li>
+    <li><code>box--warning</code></li>
+    <li><code>box--danger</code></li>
+    <li><code>box--info</code></li>
+</ul>
+Boxes furthermore can be put into a div with the class <code>box-container</code>.
+Within that container, you can apply the <code>box-half</code> class to make a box fill half of the width and therefore
+be able to fit 2 boxes next to each other, or the <code>box-third</code> class to make a box fill a third of the width
+and therefore be able to fit 3 boxes next to each other. On small screens, boxes stack below each other responsively.
+
+<h3>Buttons</h3>
+Add the <code>btn</code> class plus any of the following classes to any a-tag to style the link as a button:
+<ul>
+    <li><code>btn--primary</code></li>
+    <li><code>btn--success</code></li>
+    <li><code>btn--warning</code></li>
+    <li><code>btn--danger</code></li>
+    <li><code>btn--info</code></li>
+    <li><code>btn--inverse</code></li>
+</ul>
+You can furthermore edit the size of the button with the following classes:
+<ul>
+    <li><code>btn--x-large</code></li>
+    <li><code>btn--large</code></li>
+    <li><code>btn--small</code></li>
+</ul>
+
+
+<h3>Responsive video-embed</h3>
+Embed a video from YouTube, Vimeo, Google Drive, or bilibili that responsively sizes to fit the width of its parent.
+This feature is taken un-edit from Minimal Mistakes,
+<a href="https://mmistakes.github.io/minimal-mistakes/docs/helpers/#responsive-video-embed" rel="noopener noreferrer nofollow" target="_blank">
+    see the Minimal Mistakes Docu about responsive video embed here
+</a>.
+
+<h3>Galleries</h3>
+The gallery is as well taken from Minimal Mistakes, slightly edited in style to better fit OnePager Websites.
+<a href="https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery" rel="noopener noreferrer nofollow" target="_blank">
+    Check the Minimal Mistakes Docu about galleries here
+</a>.
+
+<h3>Rounded images</h3>
+Rounded images are a cool helper that displays a circular image in the top of a box,
+so that you can add header and a caption below the image. They add a cool visual element and can provide good structure as well.
+They can be included easily via YAMl front matter.
+Set the front matter like so:   <br>
+<code>
+    round-images:<br>
+    &nbsp;&nbsp; - image-path: "/assets/images/image.webp"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; size: "full"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; header: "text for the header"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; caption: "text for the caption"<br>
+</code><br>
+You can include further rounded image boxes by adding a next "- image-path" and all other necessary variables.
+Size can be either "full", "half" or "third" and determines, how much of the page width the box with the rounded image
+is going to take. With half, two boxes fit next to each other, with third, it's three.<br>
+Include the rounded images anywhere with <code>{&percnt; include rounded-images &percnt;}</code>.<br>
+You can use any other name than "round-images" for the rounded images. Then, you need to include an id in the include,
+like so: <code>{&percnt; include rounded-images id="id-you-chose" &percnt;}</code>. <br>
+Half or third boxes stack below each other responsively on smaller screens.
+
+<h3>Image-text-rows</h3>
+Image-text-rows include an image either on the left or right side, and a header + caption on the other side.
+They optionally can include a button with a link. <br>
+They can be set via YAMl front matter, and offer huge customization options. Create them like so:<br>
+<code>
+    image-text-row:<br>
+    &nbsp;&nbsp; - header: "text for the header"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; excerpt: "text for the caption/excerpt"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; btn-url: "https://your-url.com"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; btn-class: "primary/success/..."<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; btn-label: "label for the button"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; blank: false<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; image-url: "/assets/images/image.webp"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; alt-text: "alternative text for the image"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; image-width "400px"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; image-right: true
+</code><br>
+Leave out btn-url and the other btn-variables to not include a button. <br>
+"Blank" determines whether the link from the button is opened in a new tab or not.   <br>
+"Image-right" sets whether the image is on the right side. With true, it is, with false, it is left. <br>
+Image and text responsively stack below each other on smaller screens, with the image always on top.
+
+<h2>Footer</h2>
+You can easily customize the footer in <code>config.yml</code>.
+Under <code>footer links</code> you can set the social links that you want to include in the footer.
+Just set the <code>url</code> attribute for every social link you want to include, and out-comment the url attribute
+for every social link that you do not want to include. <br>
+Furthermore, you can set <code>copyright</code> to anything you like, like your or your clients name,
+which will display in the footer as '© [year] [name]'", with 'year' and 'name' being replaced by the respective values.<br>
+Also, you can include a <code>creator</code> name and url, if you like, which will then display in the
+footer as "Created by". If you remove or out-comment the creator attributes, no "Created by" will be shown.
+
+<h2>Custom styles</h2>
+If you want to add your own custom css, you can do that in the ready-to-use <code>custom-styles.css</code> file
+that is located with in <code>/assets/css</code>. Just add your css in there, nothing else you need to do as setup.
+
+<h2>Fonts</h2>
+Just like Minimal Mistakes, OneFlow uses system fonts for all font stacks, to provide a clean look and
+to improve performance.
+More information about that in the <a href="https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#font-stacks" rel="noopener noreferrer nofollow" target="_blank">
+    Minimal Mistakes Docu about Fonts</a>.<br>
+Furthermore, you can easily apply custom fonts within OneFlow.
+<a href="https://fonts.google.com/" rel="noopener noreferrer nofollow" target="_blank">Google Fonts</a>
+offer high versatility and are free to use (you just might need to include a license, depending on the font).
+They can be hosted locally with ease. I recommend using <a href="https://gwfh.mranftl.com/fonts." rel="noopener noreferrer nofollow" target="_blank">Google Webfonts Helper</a>
+for that. Select the font and font-styles you want there, download the files, and place them in <code>/assets/fonts</code>.
+Then open up <code>/_sass/oneflow/_fonts.scss</code> and put the css you got from Google Webfonts Helper there.
+That's it, you now host the font locally and can apply it to any text you like.
+
+<h2>Icons</h2>
+OneFlow comes with build-in support for <a href="https://fontawesome.com/" rel="noopener noreferrer nofollow" target="_blank">Font Awesome Icons</a>.
+Font Awesome 6.5.1 is included and hosted locally within OneFlow. Nothing for you to do but apply the icons!
+Just add an i-tag with the respective classes, check out the Font Awesome Website to find all their icons.
+
+<h2>Editables</h2>
+As a Web Developer, especially for private customers or small companies, I've came across the following situation a few times:
+The <b class="light-color">client wants to edit parts of the website him/herself regularly</b>, for example to add or delete upcoming events or dates.
+Large companies can pay web developers for that, but private customers or small companies often understandably can't afford
+long-term maintenance costs. <br>
+To make this as easy as possible, utilize the editables-feature from OneFlow!
+Put any HTML/Markdown part that the client needs to edit in a separate file and place this file in the
+<code>/_includes/editables</code> folder, then include it on the main page with
+<code>{&percnt; include /editables/filename.html &percnt;}</code>.<br>
+The client then only needs to make changes within the given file, which makes it as as simple and as little error-prone as possible.
+
+<h2>Further customization</h2>
+OneFlow offers huge customization options without the need to touch any of the layouts, includes or sass files.
+If you need even further customization, these directories and files are included in the GitHub Repository,
+so you can go ahead and edit all files in every way you want for further customization and fine-granular styling.
+The layout structure can be edited within <code>/_layouts/default.html or page.html</code>. The scss stylesheets
+are located within the<code>/_sass</code> directory, and includes like the page hero, footer, masthead and also utilities
+like the gallery, rounded images or image-text-rows are located within the <code>/_includes</code> folder and can be edited right there.
+
+<h2>Support / Contact</h2>
+If you have any questions or feedback, don't hesitate to contact me!
+You can reach me via <a href="mailto: per@starke-team.de">Email</a>, <a href="https://www.instagram.com/per.starke/">Instagram</a> or by writing a <a href="https://github.com/perstarke-webdev/oneflow-jekyll-theme/issues">GitHub Issue in the OneFlow Repository</a>.
+
+<h2>Contribution</h2>
+If you have any suggestions on how to improve OneFlow, I appreciate any Pull Requests or Issues on GitHub.
+Feel free to contribute in any way!
+
+<h2>Share your experience and results</h2>
+If you created a Website using OneFlow, I am very happy to see and share the results!
+Message me, or create a Pull Request where you link your Website in the ReadMe of the OneFlow Repository.
+
+<h>Happy website crafting y'all!</h>
+
+
