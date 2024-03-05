@@ -312,3 +312,16 @@ Angebot / Marketing
   }
 }
 
+
+.three-images-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.three-images-container img {
+    width: 32%;
+    margin-right: 20px;
+}
+
