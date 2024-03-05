@@ -263,3 +263,52 @@ code {
     padding: 0 6px !important;
     font-style: italic;
 }
+
+
+
+
+
+
+
+
+
+/*
+Angebot / Marketing
+*/
+
+.angebot-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; /* Vertikal zentriert */
+}
+
+.angebot-text {
+  width: 66.66%; /* 2/3 Breite der Seite */
+}
+
+.angebot-image {
+  width: 33.33%; /* 1/3 Breite der Seite */
+  margin-left: 20px; /* Abstand zwischen Bild und Text */
+}
+
+.angebot-image img {
+  max-width: 100%; /* Damit das Bild nicht breiter als sein Container wird */
+}
+
+@media (max-width: 768px) { /* Für mobile Geräte */
+  .angebot-container {
+    flex-direction: column;
+  }
+
+  .angebot-text,
+  .angebot-image {
+    width: 100%;
+    margin: 0; /* Kein Abstand mehr */
+  }
+
+  .angebot-image{
+    width: 60%;
+  }
+}
+
