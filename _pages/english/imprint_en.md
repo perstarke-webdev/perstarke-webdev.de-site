@@ -1,9 +1,10 @@
 ---
 layout: single_en
-title: Impressum und Datenschutz
+title: Imprint and privacy
 permalink: /en/imprint
-author_profile: false
 ---
+
+The following information has to be included in German, due to german laws. Contact me if you have specific questions.
 
 #### Anbieter und Verantwortliche Person
 Per Starke, Willi-Lauf Allee 43, D-50858 Köln
