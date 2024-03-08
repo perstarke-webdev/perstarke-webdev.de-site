@@ -15,4 +15,19 @@ main:
   - title: "Kontakt"
     url: /contact
 
+main_en:
+  - title: "Home"
+    url: /en
+  - title: "About me"
+    url: /en/about
+  - title: "References"
+    url: /en/references
+  - title: "Services"
+    url: /en/services
+  - title: "Projects"
+    url: /en/projects
+  - title: "Posts"
+    url: /en/posts
+  - title: "Contact"
+    url: /en/contact
 
