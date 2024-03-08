@@ -30,16 +30,16 @@
 
 <div class="initial-content">
   {{ content }}
-  <div id="cookie-banner" class="center">
-    Diese Website wird über GitHub Pages zur Verfügung gestellt, das heißt, sie verwendet ein globales Verteilernetzwerk (CDN), um Inhalte zuverlässig anzuzeigen. Wenn du die Website nutzt, können einige deiner nicht-persönlichen Daten, wie beispielsweise die IP-Adresse und Informationen zur Seitennutzung, über dieses Netzwerk übertragen werden, um eine einwandfreie Funktion der Website zu gewährleisten.
-    Mehr Infos findest du im
-    <a href="/imprint#github-pages-und-cdn-nutzung"
+<div id="cookie-banner" class="center">
+    This website is hosted on GitHub Pages, which means it uses a global content delivery network (CDN) to reliably display content. When you use the website, some of your non-personal data, such as IP address and page usage information, may be transmitted over this network to ensure smooth functioning of the website.
+    For more information, please refer to the
+    <a href="/en/imprint#github-pages-und-cdn-nutzung"
        target="_blank" rel="noopener noreferrer nofollow">
-      Impressum & Datenschutz</a><br><br>
+        Legal Notice & Privacy Policy</a><br><br>
 
-    Bitte bestätige, dass du damit einverstanden bist, sowie damit, dass wir ein Zustimmungs-Cookie verwenden, das für einen Zeitraum von einem Tag gespeichert wird. Dieses Cookie ermöglicht es uns, deine Zustimmung zur Verwendung von nicht-persönlichen Daten und zur einwandfreien Funktion der Website zu speichern.<br><br>
-    <button class="btn btn--primary" id="cookie-consent-btn">Einverstanden</button>
-  </div>
+    Please confirm that you agree to this, as well as to our use of a consent cookie that will be stored for a period of one day. This cookie enables us to store your consent to the use of non-personal data and to ensure the proper functioning of the website.<br><br>
+    <button class="btn btn--primary" id="cookie-consent-btn">Agree</button>
+</div>
 
 
   <!-- JavaScript-Code für den Cookie Consent-Banner -->
@@ -64,6 +64,8 @@
     // Event Listener für den Einverstanden-Button
     document.getElementById('cookie-consent-btn').addEventListener('click', setCookieConsent);
 </script>
+
+    
 </div>
 
 {% if site.search == true %}
