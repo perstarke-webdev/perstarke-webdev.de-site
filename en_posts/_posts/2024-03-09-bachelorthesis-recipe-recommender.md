@@ -9,7 +9,7 @@ excerpt: "I wrote my Bachelor Thesis about algorithms for personalized recipe re
 
 My bachelor thesis investigated the effectiveness of algorithms for personalized recipe recommendations. 
 The research tested whether _collaborative filtering_ or _content-based_ approaches yield more satisfying results in terms of matching users' taste. 
-To achieve this, a software application was developed, implementing both _ItemKNN_ and _content-based algorithm_, allowing for a direct comparison of their recommendation outcomes.
+To achieve this, a software application was developed, implementing both an _ItemKNN_ and a _content-based algorithm_, allowing for a direct comparison of their recommendation outcomes.
 
 The evaluation of these algorithms was performed using a database containing more than 1000 recipes plus recommendation and rating information. 
 The results obtained from this software provided valuable insights into the effectiveness of both algorithms in the context of recipe recommendations. 
@@ -84,7 +84,7 @@ Phase 1 to phase 3 served as initialization phases.
 They provided the foundation for the core phase 4, 
 where users and coaches engaged with the software to receive personalized recipe recommendations. 
 Phase 5 was started during phase 4, when users got and rated recommended recipes, 
-with these ratings stored in a CSV file instead of a relational Database for simplicity. 
+with these ratings stored in a CSV file instead of a relational database for simplicity. 
 When enough ratings had been collected in this file, the evaluation could take place, 
 providing the necessary results to discuss and answer the research question. 
 
