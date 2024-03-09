@@ -1,7 +1,7 @@
 ---
 title: Blogposts
-layout: single
-permalink: /posts
+layout: single_en
+permalink: /en/posts
 header:
     overlay_image: /images/photos/sydney-5.webp
     overlay_filter: rgba(0, 0, 0, 0.6)
@@ -11,6 +11,9 @@ header:
 
 {% for article in articles %}
 
+
+{% if article.categories contains 'en' %}
+
 <h3>
     <a href="{{ article.permalink }}"
        rel="noopener noreferrer nofollow"
@@ -19,5 +22,9 @@ header:
     </a>
 </h3>
 <p>{{ article.excerpt }}</p>
+
+{% endif %}
+
+
 
 {% endfor %}

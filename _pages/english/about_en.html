@@ -1,0 +1,55 @@
+---
+title: Per Starke
+layout: splash_en
+permalink: /en/about
+header:
+    overlay_image: /images/photos/sydney-2.webp
+    overlay_filter: rgba(0, 0, 0, 0.6)
+
+
+ai:
+    - title: "Master of Science - Applied Computer Science"
+      image_path: /images/about/rub-logo.webp
+      excerpt: "To further focus on the practical aspects of computer science after my Bachelor's degree, I will begin my Master's in Applied Computer Science at Ruhr University Bochum in April 2024."
+
+coxi:
+    - title: "Bachelor of Science - Cognitive Science"
+      image_path: /images/about/coxi-logo.webp
+      url: "https://en.wikipedia.org/wiki/Cognitive_science"
+      btn_label: "About Cognitive Science"
+      btn_class: "btn--primary"
+      excerpt: "Cognitive Science combines psychology, philosophy, neuroscience, and linguistics with computer science and artificial intelligence, with a clear focus on the technical aspects in my studies. In early 2024, I completed my Bachelor's degree at the University of Osnabrück."
+
+webdev:
+    - title: "Web Developer"
+      url: "/en/references"
+      image_path: /images/about/ps-logo.webp
+      btn_label: "References"
+      btn_class: "btn--primary"
+      excerpt: "I have gained a lot of experience in web development. You can find some websites I have designed or contributed to under my [references](/en/references)."
+
+kdk:
+    - title: "Powerlifter & Metal Fan"
+      image_path: /images/about/kdk.webp
+      excerpt: "I am a passionate competitive powerlifter with a love for metal music :musical_note:"
+
+travel:
+    - title: "Passionate Traveler"
+      image_path: /images/about/travel.webp
+      excerpt: "I want to explore as much of the world as possible - while on the road, I work just as intensively, focused, and creatively on your website :)"
+
+---
+
+<div class="about-box">
+
+    {% include feature_row id="coxi" type="left" %}
+
+    {% include feature_row id="ai" type="right" %}
+
+    {% include feature_row id="webdev" type="left"%}
+
+    {% include feature_row id="kdk" type="right"%}
+
+    {% include feature_row id="travel" type="left"%}
+
+</div>

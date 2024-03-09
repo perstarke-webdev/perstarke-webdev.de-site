@@ -1,0 +1,30 @@
+<div class="page__footer-follow">
+  <ul class="social-icons">
+
+    {% if site.author.github %}
+      <li><a href="https://github.com/{{ site.author.github }}" class="underline-hover-effect"
+             rel="noopener noreferrer nofollow"
+            target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    {% endif %}
+
+    <li><a href="https://www.youtube.com/channel/UCG2Ndo4IEH8Fa0oIv2FBRMA" class="underline-hover-effect"
+           rel="noopener noreferrer nofollow"
+           target="_blank"><i class="fab fa-fw fa-youtube" style="color: rgb(255,0,0);" aria-hidden="true"></i>
+        YouTube</a></li>
+
+    <li><a href="https://www.instagram.com/perstarke_webdev/" class="underline-hover-effect"
+           rel="noopener noreferrer nofollow"
+           target="_blank"><i class="fab fa-fw fa-instagram instagram" aria-hidden="true"></i> Instagram</a></li>
+
+    <li><a href="https://dev.to/per-starke-642" class="underline-hover-effect"
+           rel="noopener noreferrer nofollow"
+           target="_blank"><i class="fab fa-fw fa-dev" aria-hidden="true"></i> Dev.to</a></li>
+
+    <li><a href="{{ '/en/imprint' | absolute_url }}" class="underline-hover-effect"
+           rel="noopener noreferrer nofollow"
+           target="_blank"><i class="fas fa-fw fa-gavel" style="color:Tomato" aria-hidden="true"></i> Imprint & privacy</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} Per Starke.
+</div>

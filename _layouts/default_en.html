@@ -1,0 +1,87 @@
+---
+---
+
+<!doctype html>
+
+
+<!--
+  Minimal Mistakes Jekyll Theme 4.22.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="{{ site.locale | slice: 0,2 | default: 'en' }}" class="no-js">
+<head>
+  {% include head.html %}
+  <script defer data-domain="perstarke-webdev.de" src="https://plausible.io/js/script.js"></script>
+  {% include head/custom.html %}
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+{% include_cached skip-links.html %}
+{% include_cached masthead_en.html %}
+
+<div class="initial-content">
+  {{ content }}
+<div id="cookie-banner" class="center">
+    This website is hosted on GitHub Pages, which means it uses a global content delivery network (CDN) to reliably display content. When you use the website, some of your non-personal data, such as IP address and page usage information, may be transmitted over this network to ensure smooth functioning of the website.
+    For more information, please refer to the
+    <a href="/en/imprint#github-pages-und-cdn-nutzung"
+       target="_blank" rel="noopener noreferrer nofollow">
+        Legal Notice & Privacy Policy</a><br><br>
+
+    Please confirm that you agree to this, as well as to our use of a consent cookie that will be stored for a period of one day. This cookie enables us to store your consent to the use of non-personal data and to ensure the proper functioning of the website.<br><br>
+    <button class="btn btn--primary" id="cookie-consent-btn">Agree</button>
+</div>
+
+
+  <!-- JavaScript-Code für den Cookie Consent-Banner -->
+  <script>
+    // Überprüfe, ob das Cookie für die Zustimmung gesetzt ist
+    if (document.cookie.indexOf('cookieConsent=1') !== -1) {
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+
+  // Funktion zum Ausblenden des Banners und Setzen des Zustimmungs-Cookies für einen Tag
+  function setCookieConsent() {
+      document.getElementById('cookie-banner').style.display = 'none';
+
+      // Erstelle ein Date-Objekt für das Ablaufdatum (einen Tag ab dem aktuellen Datum)
+      var expiresDate = new Date();
+      expiresDate.setDate(expiresDate.getDate() + 1);
+
+      // Setze ein Cookie, um die Zustimmung des Benutzers für einen Tag zu speichern
+      document.cookie = 'cookieConsent=1; expires=' + expiresDate.toUTCString() + '; path=/';
+  }
+
+    // Event Listener für den Einverstanden-Button
+    document.getElementById('cookie-consent-btn').addEventListener('click', setCookieConsent);
+</script>
+
+    
+</div>
+
+{% if site.search == true %}
+<div class="search-content">
+  {% include_cached search/search_form.html %}
+</div>
+{% endif %}
+
+<div id="footer" class="page__footer">
+  <footer>
+    {% include footer/custom.html %}
+    {% include_cached footer_en.html %}
+  </footer>
+</div>
+
+{% include scripts.html %}
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+---
+title: Blogposts
+layout: single
+permalink: /posts
+header:
+    overlay_image: /images/photos/sydney-5.webp
+    overlay_filter: rgba(0, 0, 0, 0.6)
+---
+
+{% assign articles = site.posts | sort: 'date' | reverse %}
+
+{% for article in articles %}
+
+
+    {% if article.categories contains 'de' %}
+
+        <h3>
+            <a href="{{ article.permalink }}"
+               rel="noopener noreferrer nofollow"
+               target="_blank">
+                {{ article.title }}
+            </a>
+        </h3>
+        <p>{{ article.excerpt }}</p>
+
+    {% endif %}
+
+
+
+{% endfor %}
