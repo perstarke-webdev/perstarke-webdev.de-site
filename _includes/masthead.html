@@ -5,6 +5,9 @@
         <a class="site-title" href="{{ '/' | absolute_url }}">
           <img src="/images/logo/ps-webdev-logo.webp" width="110px"/></a>
          <ul class="visible-links">
+           <li class="masthead__menu-item">
+             <a href="/en"><i class="fa fa-flag"></i> English</a>
+           </li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
