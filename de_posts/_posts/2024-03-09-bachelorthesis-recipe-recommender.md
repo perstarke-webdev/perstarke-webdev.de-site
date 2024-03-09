@@ -23,7 +23,7 @@ Thanx to Prof. Tobias Thelen and the University of Osnabrück for supporting thi
 ## Background 
 
 Recommender systems are like personal assistants in the digital world, 
-helping you find things you might like. The most famous example here is Netflix with it's personalized series/movies recommendations.
+helping you find things you might like. The most famous example here is Netflix with its personalized series/movies recommendations.
 
 They come in two main types:
 ***collaborative filtering***, which looks at what you and others have liked before, 
