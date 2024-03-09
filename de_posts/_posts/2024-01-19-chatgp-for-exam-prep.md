@@ -5,7 +5,7 @@ layout: single
 excerpt: "Studying for exams can be a daunting task, but my recent experience with an oral exam was transformed by an unlikely ally - ChatGPT. In this post, I'll share how I utilized ChatGPT to prepare for my exam effectively and how it can help you as well."
 ---
 
-I recenly had an extremely important oral exam, the last thing I needed to finally finish my bachelor degree! 
+I recently had an extremely important oral exam, the last thing I needed to finally finish my bachelor degree! 
 This exam covered way more topics than any exam I had before, partly from lectures I've had 3 years ago, so I needed to come up with a solution how I could effectively prepare - and came up with an unlikely ally: ChatGPT.  
 In this post, I'll share how I utilized ChatGPT to prepare for my exam effectively and how it can help you as well.    
 As writing good prompts (*messages*) to ChatGPT is crucial for getting good answers, I'll share some example prompts I used.
