@@ -11,6 +11,9 @@ header:
 
 {% for article in articles %}
 
+
+{% if article.categories contains 'en' %}
+
 <h3>
     <a href="{{ article.permalink }}"
        rel="noopener noreferrer nofollow"
@@ -19,5 +22,9 @@ header:
     </a>
 </h3>
 <p>{{ article.excerpt }}</p>
+
+{% endif %}
+
+
 
 {% endfor %}

@@ -11,13 +11,20 @@ header:
 
 {% for article in articles %}
 
-<h3>
-    <a href="{{ article.permalink }}"
-       rel="noopener noreferrer nofollow"
-       target="_blank">
-        {{ article.title }}
-    </a>
-</h3>
-<p>{{ article.excerpt }}</p>
+
+    {% if article.categories contains 'de' %}
+
+        <h3>
+            <a href="{{ article.permalink }}"
+               rel="noopener noreferrer nofollow"
+               target="_blank">
+                {{ article.title }}
+            </a>
+        </h3>
+        <p>{{ article.excerpt }}</p>
+
+    {% endif %}
+
+
 
 {% endfor %}
