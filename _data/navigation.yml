@@ -8,6 +8,8 @@ main:
     url: /references
   - title: "Leistungen"
     url: /services
+  - title: "Testimonials"
+    url: /testimonials
   - title: "Projekte"
     url: /projects
   - title: "Posts"
@@ -24,6 +26,8 @@ main_en:
     url: /en/references
   - title: "Services"
     url: /en/services
+  - title: "Testimonials"
+    url: /en/testimonials
   - title: "Projects"
     url: /en/projects
   - title: "Posts"
