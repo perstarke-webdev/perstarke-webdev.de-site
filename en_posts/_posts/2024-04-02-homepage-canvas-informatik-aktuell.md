@@ -1,7 +1,7 @@
 ---
 title: "The Homepage Canvas on 'Informatik-Aktuell'-magazine"
 permalink: /posts/en/homepage-canvas-informatik-aktuell
-layout: single
+layout: single_en
 excerpt: "The Homepage Canvas I developed has now been published in the renowned magazine 'Informatik-Aktuell'!"
 ---
 
