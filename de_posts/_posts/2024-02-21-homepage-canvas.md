@@ -6,6 +6,19 @@ excerpt: "In the realm of website development, having a clear roadmap can make a
     This is where the Homepage Canvas comes into play - a versatile tool designed to simplify communication, enhance collaboration and help with collecting and structuring ideas, wishes and preferences for website projects."
 ---
 
+<div class="notice--info center">
+
+    Zukünftig werde ich alle Posts auf Englisch schreiben und auf meinem "Panorama Perspectives" Blog veröffentlichen!
+    Guck gerne mal dort vorbei.
+    
+    <br><br>
+
+    <a href="https://blog.perstarke-webdev.de/" class="btn btn--success" target="_blank" rel="noopener noreferrer nofollow">
+        Zum Blog
+    </a>
+
+</div>
+
 In the realm of website development, having a clear roadmap can make all the difference between a successful project and one that falls short of expectations. Clear communication between web developers and clients is essential, not only for satisfying results but also for enjoyable teamwork. However, all too often, projects get bogged down by unclear objectives, misaligned expectations, and endless cycles of revisions. These challenges can lead to frustration on both sides, delayed timelines, and escalating costs.
 
 This is where the Homepage Canvas comes into play—a versatile tool designed to simplify communication, enhance collaboration, and help with collecting and structuring ideas, wishes, and preferences for website projects. By bridging the gap between developers and clients, the Homepage Canvas offers a structured approach to capturing the essence of what clients want, right from the outset. It turns vague ideas into actionable plans, ensuring that every project starts on solid ground, with a shared understanding of the path forward.

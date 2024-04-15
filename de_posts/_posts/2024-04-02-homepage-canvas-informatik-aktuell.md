@@ -5,6 +5,19 @@ layout: single
 excerpt: "Der von mir entwickelte Homepage Canvas hat nun einen Artikel in dem renommierten Fachmagazin 'Informatik-Aktuell'!"
 ---
 
+<div class="notice--info center">
+
+    Zukünftig werde ich alle Posts auf Englisch schreiben und auf meinem "Panorama Perspectives" Blog veröffentlichen!
+    Guck gerne mal dort vorbei.
+    
+    <br><br>
+
+    <a href="https://blog.perstarke-webdev.de/" class="btn btn--success" target="_blank" rel="noopener noreferrer nofollow">
+        Zum Blog
+    </a>
+
+</div>
+
 Der von mir entwickelte Homepage Canvas hat nun einen Artikel in dem renommierten Fachmagazin 'Informatik-Aktuell'!
 
 Dort erkläre ich im Detail das Konzept des Canvas und gebe Tipps zur Anwendung - sowohl von Seiten

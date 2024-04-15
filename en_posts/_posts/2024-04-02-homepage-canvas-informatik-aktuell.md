@@ -5,6 +5,19 @@ layout: single_en
 excerpt: "The Homepage Canvas I developed has now been published in the renowned magazine 'Informatik-Aktuell'!"
 ---
 
+<div class="notice--info center">
+
+    In the future, I will publish all posts not here, but on my "Panorama Perspectives" Blog!
+    Make sure to check it out.
+
+    <br><br>
+
+    <a href="https://blog.perstarke-webdev.de/" class="btn btn--success" target="_blank" rel="noopener noreferrer nofollow">
+        To my blog
+    </a>
+
+</div>
+
 The Homepage Canvas I developed has now been published in the renowned magazine 'Informatik-Aktuell'! (In German).
 
 There I explain the concept of the canvas in detail and give tips on how to use it - both from the

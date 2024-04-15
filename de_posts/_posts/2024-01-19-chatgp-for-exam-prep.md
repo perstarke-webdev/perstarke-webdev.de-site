@@ -5,6 +5,19 @@ layout: single
 excerpt: "Studying for exams can be a daunting task, but my recent experience with an oral exam was transformed by an unlikely ally - ChatGPT. In this post, I'll share how I utilized ChatGPT to prepare for my exam effectively and how it can help you as well."
 ---
 
+<div class="notice--info center">
+
+    Zukünftig werde ich alle Posts auf Englisch schreiben und auf meinem "Panorama Perspectives" Blog veröffentlichen!
+    Guck gerne mal dort vorbei.
+    
+    <br><br>
+
+    <a href="https://blog.perstarke-webdev.de/" class="btn btn--success" target="_blank" rel="noopener noreferrer nofollow">
+        Zum Blog
+    </a>
+
+</div>
+
 I recently had an extremely important oral exam, the last thing I needed to finally finish my bachelor degree! 
 This exam covered way more topics than any exam I had before, partly from lectures I've had 3 years ago, so I needed to come up with a solution how I could effectively prepare - and came up with an unlikely ally: ChatGPT.  
 In this post, I'll share how I utilized ChatGPT to prepare for my exam effectively and how it can help you as well.    

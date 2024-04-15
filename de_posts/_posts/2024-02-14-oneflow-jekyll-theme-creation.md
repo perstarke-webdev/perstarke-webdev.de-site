@@ -5,6 +5,19 @@ layout: single
 excerpt: "Join me on the journey of crafting OneFlow, a Jekyll theme designed for seamless One-Pager websites. Why did I choose a GitHub repository over the conventional official theme route? The answer is as straightforward as OneFlow's structure. Let's delve into the code and explore why this laid-back approach aligns with my vision."
 ---
 
+<div class="notice--info center">
+
+    Zukünftig werde ich alle Posts auf Englisch schreiben und auf meinem "Panorama Perspectives" Blog veröffentlichen!
+    Guck gerne mal dort vorbei.
+    
+    <br><br>
+
+    <a href="https://blog.perstarke-webdev.de/" class="btn btn--success" target="_blank" rel="noopener noreferrer nofollow">
+        Zum Blog
+    </a>
+
+</div>
+
 Join me on the journey of crafting OneFlow, a Jekyll theme designed for seamless One-Pager websites. Why did I choose a GitHub repository over the conventional official theme route? The answer is as straightforward as OneFlow's structure. Let's delve into the code and explore why this laid-back approach aligns with my vision.
 
 Check out these links to get impressions and details about OneFlow:

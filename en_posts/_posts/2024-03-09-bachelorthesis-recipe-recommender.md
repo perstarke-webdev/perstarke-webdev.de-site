@@ -5,6 +5,19 @@ layout: single_en
 excerpt: "I wrote my Bachelor Thesis about algorithms for personalized recipe recommendations - here are some insights!"
 ---
 
+<div class="notice--info center">
+
+    In the future, I will publish all posts not here, but on my "Panorama Perspectives" Blog!
+    Make sure to check it out.
+
+    <br><br>
+
+    <a href="https://blog.perstarke-webdev.de/" class="btn btn--success" target="_blank" rel="noopener noreferrer nofollow">
+        To my blog
+    </a>
+
+</div>
+
 ## Summary
 
 My bachelor thesis investigated the effectiveness of algorithms for personalized recipe recommendations. 
