@@ -12,8 +12,8 @@ main:
     url: /testimonials
   - title: "Projekte"
     url: /projects
-  - title: "Posts"
-    url: /posts
+  - title: "Blog"
+    url: "https://blog.perstarke-webdev.de/"
   - title: "Kontakt"
     url: /contact
 
@@ -30,8 +30,8 @@ main_en:
     url: /en/testimonials
   - title: "Projects"
     url: /en/projects
-  - title: "Posts"
-    url: /en/posts
+  - title: "Blog"
+    url: "https://blog.perstarke-webdev.de/"
   - title: "Contact"
     url: /en/contact
 
