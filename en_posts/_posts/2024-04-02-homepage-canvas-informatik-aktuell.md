@@ -18,6 +18,8 @@ excerpt: "The Homepage Canvas I developed has now been published in the renowned
 
 </div>
 
+<link rel="canonical" href="https://blog.perstarke-webdev.de/posts/homepage-canvas-informatik-aktuell">
+
 The Homepage Canvas I developed has now been published in the renowned magazine 'Informatik-Aktuell'! (In German).
 
 There I explain the concept of the canvas in detail and give tips on how to use it - both from the
