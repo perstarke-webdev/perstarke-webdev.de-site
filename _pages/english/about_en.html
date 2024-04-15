@@ -28,6 +28,14 @@ webdev:
       btn_class: "btn--primary"
       excerpt: "I have gained a lot of experience in web development. You can find some websites I have designed or contributed to under my [references](/en/references)."
 
+blog:
+- title: "Blogger"
+  image_path: /images/logo/panorama-perspectives-cover.webp
+  excerpt: "In my 'Panorama Perspectives' Blog I write about Web development, personal growth, travel, sports and more."
+  btn_label: "Go check out my blog"
+  btn_class: "btn--primary"
+  url: "https://blog.perstarke-webdev.de/"
+
 kdk:
     - title: "Powerlifter & Metal Fan"
       image_path: /images/about/kdk.webp
@@ -48,8 +56,10 @@ travel:
 
     {% include feature_row id="webdev" type="left"%}
 
-    {% include feature_row id="kdk" type="right"%}
+    {% include feature_row id="blog" type="right"%}
 
-    {% include feature_row id="travel" type="left"%}
+    {% include feature_row id="kdk" type="left"%}
+
+    {% include feature_row id="travel" type="right"%}
 
 </div>

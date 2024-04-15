@@ -32,15 +32,25 @@ webdev:
   excerpt: "Ich durfte schon viel Erfahrung im Web Development Bereich sammeln. Unter [Referenzen](/references)
             findest Du einige Webseiten, die ich gestaltet oder bei denen ich mitgewirkt habe."
 
+blog:
+- title: "Blogger"
+  image_path: /images/logo/panorama-perspectives-cover.webp
+  excerpt: "In meinem 'Panorama Perspectives' Blog schreibe ich über Webentwicklung, persönliches Wachstum, Reisen, Sport und mehr."
+  btn_label: "Schau dir meinen Blog an"
+  btn_class: "btn--primary"
+  url: "https://blog.perstarke-webdev.de/"
+
 kdk:
 - title: "Powerlifter & Metal-Fan"
   image_path: /images/about/kdk.webp
   excerpt: "Ich bin leidenschaftlicher Wettkampf-Kraftsportler mit einem Faible für Metal-Musik :musical_note:"
 
 travel:
-- title: "Leidenschaftlicher Traveller"
+- title: "Leidenschaftlicher Traveler"
   image_path: /images/about/travel.webp
   excerpt: "Ich möchte gerne alles was geht von der Welt erkunden - von unterwegs arbeite ich genau so intensiv, fokussiert und kreativ an deiner Website :)"
+
+
 ---
 
 <div class="about-box">
@@ -51,8 +61,10 @@ travel:
 
     {% include feature_row id="webdev" type="left"%}
 
-    {% include feature_row id="kdk" type="right"%}
+    {% include feature_row id="blog" type="right"%}
 
-    {% include feature_row id="travel" type="left"%}
+    {% include feature_row id="kdk" type="left"%}
+
+    {% include feature_row id="travel" type="right"%}
 
 </div>
