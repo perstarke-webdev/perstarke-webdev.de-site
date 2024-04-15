@@ -1,6 +1,10 @@
 /* special styles for Per Starke Web-Dev website */
 
 
+.center {
+    text-align: center !important;
+}
+
 /* define colors */
 :root {
   --lightgrey-background: rgba(255, 255, 255, 0.15);

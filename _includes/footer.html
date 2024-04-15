@@ -1,4 +1,4 @@
-<div class="page__footer-follow">
+<div class="page__footer-follow center">
   <ul class="social-icons">
 
     {% if site.author.github %}
@@ -20,11 +20,15 @@
            rel="noopener noreferrer nofollow"
            target="_blank"><i class="fab fa-fw fa-dev" aria-hidden="true"></i> Dev.to</a></li>
 
+    <li><a href="https://blog.perstarke-webdev.de/" class="underline-hover-effect"
+           rel="noopener noreferrer nofollow"
+           target="_blank"><i class="fas fa-fw fa-blog" aria-hidden="true" style="color: #00adb5"></i> Panorama Perspectives Blog</a></li>
+
     <li><a href="{{ '/imprint' | absolute_url }}" class="underline-hover-effect"
            rel="noopener noreferrer nofollow"
            target="_blank"><i class="fas fa-fw fa-gavel" style="color:Tomato" aria-hidden="true"></i> Impressum & Datenschutz</a></li>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} Per Starke.
+<div class="page__footer-copyright center">&copy; {{ site.time | date: '%Y' }} Per Starke.
 </div>
