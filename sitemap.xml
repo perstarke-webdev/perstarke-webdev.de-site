@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
   <url>
     <loc>https://perstarke-webdev.de/</loc>
     <lastmod>2024-05-24T08:35:39+00:00</lastmod>
@@ -131,7 +130,6 @@
     <lastmod>2024-05-24T08:35:28+00:00</lastmod>
     <priority>0.41</priority>
   </url>
-  <!-- New URLs -->
   <url>
     <loc>https://perstarke-webdev.de/en/services/standard-homepage</loc>
     <lastmod>2024-05-24T08:35:39+00:00</lastmod>
@@ -159,6 +157,36 @@
   </url>
   <url>
     <loc>https://perstarke-webdev.de/en/guarantee-terms</loc>
+    <lastmod>2024-05-24T08:35:39+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://perstarke-webdev.de/en/my-offer-for-you</loc>
+    <lastmod>2024-05-24T08:35:39+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://perstarke-webdev.de/en/services/websites-for-cafes</loc>
+    <lastmod>2024-05-24T08:35:39+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://perstarke-webdev.de/en/services/websites-for-individuals</loc>
+    <lastmod>2024-05-24T08:35:39+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://perstarke-webdev.de/en/services/websites-for-gyms</loc>
+    <lastmod>2024-05-24T08:35:39+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://perstarke-webdev.de/en/services/websites-for-bands</loc>
+    <lastmod>2024-05-24T08:35:39+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://perstarke-webdev.de/en/services/websites-for-coaches</loc>
     <lastmod>2024-05-24T08:35:39+00:00</lastmod>
     <priority>0.64</priority>
   </url>
