@@ -330,6 +330,23 @@ Angebot / Marketing
     margin-right: 20px;
 }
 
+.two-images-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.two-images-container a {
+    width: 48%;
+    margin-right: 20px;
+}
+
+.two-images-container a:last-child {
+    margin-right: 0;
+}
+
+
 .angebot-text-box {
     border: 1.5px solid rgba(0,255,0,0.2);
     background-color: rgba(0,255,0,0.05);
