@@ -22,7 +22,7 @@ Creating a website yourself is possible, with coding knowledge, entirely for fre
 As a rough guide:
 Large web agencies usually charge between €1,000 and €20,000 for a website.
 For freelancers, you can often get a not too complex site for just under €1,000.
-My vision is to offer the possibility of an appealing, practical, and effective website even to small businesses, startups, or private individuals who cannot afford these prices. Therefore, I offer basic homepages starting at €299, which already include basic customizability, search engine optimization, adaptation to various display sizes, and of course a structured and meaningful design as well as visually appealing and psychologically optimized layout.
+My vision is to offer the possibility of an appealing, practical, and effective website even to small businesses, startups, or private individuals who cannot afford these prices. Therefore, I offer basic homepages starting at €499, which already include basic customizability, search engine optimization, adaptation to various display sizes, and of course a structured and meaningful design as well as visually appealing and psychologically optimized layout.
 For this standard price, you can book individual additional options with fixed prices from me, or get a completely individual site at an equally individual but affordable price.
 
 ## Can I keep my old domain (for a remake)?
