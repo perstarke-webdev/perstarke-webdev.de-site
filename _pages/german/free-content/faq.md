@@ -14,12 +14,13 @@ excerpt: "Häufig gestellte Fragen zur Erstellung und Überarbeitung von Website
 Da dies eine sehr häufige Frage ist, habe ich dazu einen kurzen Blogpost auf meiner Website veröffentlicht. Du kannst [ihn hier finden](https://perstarke-webdev.de/posts/your-website).
 
 ## Was kostet ein Remake meiner Seite oder eine Neu-Erstellung?
-Die Kosten für die Erstellung oder Überarbeitung einer Website variieren je nach Umfang und Komplexität des Projekts. Einige Faktoren, die die Kosten beeinflussen können, sind die Größe der Website, die Anzahl der benötigten Seiten und Funktionen sowie der gewünschte maximale Zeitaufwand. Die Preise können zwischen den Anbietern stark variieren. Es hängt auch davon ab, ob du die Website von einem externen Anbieter (Agentur oder Freelancer) erstellen lässt oder selbst versuchst, sie zu erstellen.
+Die Kosten für die Erstellung oder Überarbeitung einer Website variieren je nach Umfang und Komplexität des Projekts. Einige Faktoren, die die Kosten beeinflussen können, sind die Größe der Website, die Anzahl der benötigten Seiten und Funktionen sowie der gewünschte maximale Zeitaufwand. Die Preise können zwischen den Anbietern stark variieren. Es hängt auch davon ab, ob du die Website von einem externen Anbieter erstellen lässt oder selbst versuchst, sie zu erstellen.
 
 Eine Website selbst zu erstellen ist möglich, mit Kenntnissen im Programmieren, komplett kostenlos, erfordert jedoch Zeit und viel Wissen. Es gibt auch Website-Baukästen, die dies ohne Programmierkenntnisse ermöglichen. Diese sind oft in der Basisversion kostenlos, aber in der Pro-Version hast du in der Regel monatliche Kosten zwischen 15 € und 50 €, je nach Anbieter. Da es viele wichtige Punkte gibt, die für die Erstellung einer ansprechenden und effektiven Website entscheidend sind, ist oft ein externer Anbieter die bessere Wahl, da das Endergebnis in der Regel deutlich besser und effektiver ist. Dies hängt jedoch von deinem Budget und davon ab, wie viel Zeit du bereit bist, selbst zu investieren. Auch selbst erstellte Websites können gut und hilfreich sein.
 
 Als grobe Orientierung:
-Große Web-Agenturen verlangen normalerweise zwischen 1.000 € und 20.000 € für eine Website. Bei Freelancern bekommst du eine nicht allzu komplexe Website oft auch knapp unter 1.000 €.
+Große Web-Agenturen verlangen normalerweise zwischen 2.000 € und 20.000 € für eine Website.
+Der aktuelle durchschnittliche Industrie-Standard Preis für eine Basic-Homepage liegt bei etwa 2500 €.
 
 Meine Vision ist es, auch kleinen Unternehmen, Startups oder Privatpersonen, die sich diese Preise nicht leisten können, die Möglichkeit zu bieten, eine ansprechende, praktische und effektive Website zu erhalten. Daher biete ich Basic-Homepages schon ab 499 € an, die bereits grundlegende Anpassbarkeit, Suchmaschinenoptimierung, Anpassung an verschiedene Displaygrößen und natürlich eine strukturierte und sinnvolle Gestaltung sowie optisch ansprechendes und psychologisch optimiertes Design beinhalten. Für diesen Standardpreis kannst du bei mir einzelne Zusatzoptionen zu Festpreisen buchen oder eine komplett individuelle Website zu einem ebenfalls individuellen, aber günstigen Preis erhalten.
 
@@ -65,3 +66,15 @@ Ich biete auch einen Service zur Erstellung von Social-Media-Ankündigungen für
 - 2 Beiträge zur Ankündigung der neuen Website und zur detaillierteren Vorstellung einzelner Abschnitte
 - 10 Stories, einige davon wiederverwendbar, zur Ankündigung der neuen Website, detaillierteren Vorstellung und regelmäßigen weiteren Bewerbung deiner Website in den sozialen Medien
 - Ich kann die Stories und Beiträge auch von meinen privaten und beruflichen Accounts aus erneut posten, um dir noch mehr Sichtbarkeit zu verschaffen!
+
+## Was, wenn später Änderungen an meiner Website notwendig sind?
+
+Zunächst: Wenn ich deine Website erstelle, bin ich auch nach Abschluss deines Website-Projekts immer für dich da, also keine Sorge!
+
+Wenn du kleine Änderungen wie leichte Anpassungen der Wortwahl in Überschriften und Texten benötigst, ist das für dich immer kostenlos.
+
+Natürlich kümmere ich mich auch kostenlos und so schnell wie möglich um etwaige Fehler, wenn Dinge nicht mehr funktionieren oder andere sofortige Korrekturen erforderlich sind – I've got you covered!
+
+Wenn du regelmäßig größere Updates möchtest oder ab und zu frische Inhalte benötigst, biete ich verschiedene laufende Dienstleistungen an. Schau sie dir an und sag mir Bescheid, wenn du eine davon interessant findest.
+
+Du findest sie am Ende meiner [Dienstleistungsseite](/services).

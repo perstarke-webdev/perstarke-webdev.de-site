@@ -17,11 +17,14 @@ Since this is a very common question, I have published a short blog post on my w
 The cost of creating or redesigning a website varies depending on the scope and complexity of the project.
 Some factors that can affect the cost include the size of the website, the number of required pages and features, as well as the desired maximum time expenditure.
 Prices can vary significantly between providers.
-It also depends on whether you have the website created by an external provider (agency or freelancer) or if you try to create it yourself.
+
+It also depends on whether you have the website created by an external provider or if you try to create it yourself.
 Creating a website yourself is possible, with coding knowledge, entirely for free, but it requires time and a lot of knowledge. There are also website builders that allow this without coding skills. These are often free in the basic version, but in the pro version, you usually have monthly costs ranging from €15 to €50 depending on the provider. Since there are many important points that are crucial for creating an appealing and effective website, an external provider is often the better choice, as the end result is usually noticeably better and more effective. However, this depends on your budget and how much time you are willing to invest yourself. Even self-created websites can be good and helpful.
+
 As a rough guide:
-Large web agencies usually charge between €1,000 and €20,000 for a website.
-For freelancers, you can often get a not too complex site for just under €1,000.
+Large web agencies usually charge between €2,000 and €20,000 for a website.
+The industry standard average price for a standard homepage is currently at approximately €2500. 
+
 My vision is to offer the possibility of an appealing, practical, and effective website even to small businesses, startups, or private individuals who cannot afford these prices. Therefore, I offer basic homepages starting at €499, which already include basic customizability, search engine optimization, adaptation to various display sizes, and of course a structured and meaningful design as well as visually appealing and psychologically optimized layout.
 For this standard price, you can book individual additional options with fixed prices from me, or get a completely individual site at an equally individual but affordable price.
 
@@ -69,3 +72,17 @@ I also offer a service for creating social media announcements for your website 
 - 2 posts announcing the new website and introducing individual sections in more detail
 - 10 stories, some reusable, for announcing the new website, more detailed introductions, and regular further promotion of your website on social media
 - I can also repost the stories and posts from my private and professional accounts to give you even more visibility!
+
+## What if changes to my website are necessary later?
+
+First up: When I create your website, I will always be there for you even after we finish your website project together, so no worries!
+
+If you need any small changes, like slight adjustments to wording in headings and texts, that will be forever free for you.
+
+Of course, if there are any errors, things stop working, or any other immediate fixes are required, I will deal with that for free and as soon as possible – I've got you covered!
+
+If you want regular larger updates or need fresh content every now and then, I offer a few different ongoing services. Check these out and let me know if you require any of them.
+
+You can find them at the bottom of my [services page](/en/services).
+
+
