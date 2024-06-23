@@ -63,9 +63,9 @@ Nutze die Farbpsychologie, um das Verhalten der Nutzer:innen zu beeinflussen und
 - <span style="background-color:blue; color: white;">Blau</span>, <span style="background-color:green; color: white;">Grün</span> und <span style="background-color:darkgrey; color: white;">Hellgrau</span> können ein Gefühl von Vertrauen vermitteln
 
 ### Sich von der Konkurrenz abheben
-Gestalte deine Website so, dass sie sich von der Konkurrenz abhebt und deine einzigartigen Verkaufsargumente hervorhebt. Wenn all deine Konkurrenten eine helle und farbenfrohe Website verwenden, solltest du in Erwägung ziehen, nicht nur hervorzuheben, was dich einzigartig macht, sondern auch eine subtilere und professionellere Farbpalette zu verwenden. Umgekehrt, wenn alle deine Konkurrenten ein professionelles und dezentes Farbschema mit viel Schwarz und Grau verwenden, solltest du in Erwägung ziehen, mit gut gewählten auffälligen Farben aufzufallen.
+Gestalte deine Website so, dass sie sich von der Konkurrenz abhebt und deine einzigartigen Verkaufsargumente hervorhebt. Wenn all deine Konkurrenten eine helle und farbenfrohe Website verwenden, solltest du in Erwägung ziehen, nicht nur hervorzuheben, was dich einzigartig macht, sondern auch eine subtilere und professionellere Farbpalette zu verwenden. Umgekehrt, wenn alle deine Konkurrenten ein professionelles und dezentes Farbschema mit viel Schwarz und Grau verwenden, solltest du in Erwägung ziehen, mit gut gewählten auffälligen Farben hervorzustechen.
 
-### Gefühl, das zu deinen Zielkund:innen passt
+### Atmosphäre, die zu deinen Zielkund:innen passt
 Schaffe eine Website-Atmosphäre, die den Vorlieben und Erwartungen deiner Zielgruppe entspricht. Wenn du ein Unternehmen hast, das Comedy-Shows für Kinder verkauft, möchtest du, dass deine Website lustig und unkompliziert wirkt, aber dennoch vertrauenswürdig und professionell.
 
 ### Soziale Bestätigung
