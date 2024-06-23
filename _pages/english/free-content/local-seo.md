@@ -1,6 +1,6 @@
 ---
 title: Local SEO
-layout: single
+layout: single_en
 toc: true
 toc_label: "Table of Contents"
 permalink: /en/local-seo
