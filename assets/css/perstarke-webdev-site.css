@@ -370,7 +370,9 @@ Angebot / Marketing
 }
 
 
-
+.bigger {
+    font-size: 130% !important;
+}
 
 .badge {
     background-color: #d4af37;
