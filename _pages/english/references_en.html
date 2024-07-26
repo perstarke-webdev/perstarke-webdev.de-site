@@ -7,6 +7,16 @@ header:
     overlay_filter: rgba(0, 0, 0, 0.6)
 excerpt: "Websites I have created or contributed to"
 
+esa:
+- title: "Effective Software Architectures - the website for the book"
+  image_path: /images/references/esa-cover.png
+  url: "https://www.esabuch.de/"
+  btn_label: "Visit Website"
+  btn_class: "btn--inverse"
+  excerpt: "In line with the new edition of the book, I provided a complete redesign for the website -
+  featuring new content, a design inspired by the book cover, and numerous improvements."
+
+
 arc42-subtle-ads-api:
   - title: "arc42 subtle-ads API"
     image_path: /images/references/arc42-site-logo.png
@@ -180,7 +190,11 @@ req42_docs:
 
 ---
 
-<div class="references_dark" id="ref-nineteen">
+<div class="references_bright" id="ref-twenty">
+  {% include feature_row id="esa" type="right" %}
+</div>
+
+<div class="references_dark hide-for-fade-in" id="ref-nineteen">
   {% include feature_row id="arc42-subtle-ads-api" type="left" %}
 </div>
 
