@@ -33,6 +33,7 @@
   (primary, $primary-color),
   (inverse, #fff),
   (light-outline, transparent),
+  (primary-outline, mix($primary-color, transparent, 20%)),
   (success, $success-color),
   (warning, $warning-color),
   (danger, $danger-color),
@@ -49,6 +50,9 @@
       }
       @if ($buttoncolor == light-outline) {
         border: 1px solid #fff;
+      }
+      @if ($buttoncolor == primary-outline) {
+        border: 2.5px solid $primary-color;
       }
 
       &:visited {
