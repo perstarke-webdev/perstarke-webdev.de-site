@@ -23,18 +23,12 @@
 >
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
-      <a href="/en/testimonials" rel="noopener noreferrer nofollow" target="_blank" class="btn btn--light-outline btn--small"><i class="fas fa-star" style="color: #FFFF66;"></i><i class="fas fa-star" style="color: #FFFF66;"></i><i class="fas fa-star" style="color: #FFFF66;"></i><i class="fas fa-star" style="color: #FFFF66;"></i><i class="fas fa-star" style="color: #FFFF66;"></i> from all my customers</a>
-      <a rel="noopener noreferrer nofollow" href="/en/services" target="_blank" class="btn btn--light-outline btn--small">High quality from €499 - save €2500 compared to industry standard</a>
-      <a rel="noopener noreferrer nofollow" href="/en/services" target="_blank" class="btn btn--light-outline btn--small">Customised offers</a>
-      <a rel="noopener noreferrer nofollow" href="/en/contact" target="_blank" class="btn btn--light-outline btn--small">Always there for your questions</a>
-      <a rel="noopener noreferrer nofollow" href="/en/contact" target="_blank" class="btn btn--light-outline btn--small">Initial consultation without obligation</a>
-      <br><br>
       <h1 id="page-title" class="page__title" itemprop="headline">
         {% if paginator and site.paginate_show_page_num %}
           {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
         {% else %}
           {% if page.title == "Per Starke - Web Development" %}
-          Individual Web Development <span class="side-header"> By Per Starke </span>
+           The Easy Way to the Professional Online Presence Your Business Deserves
           {% else %}
             {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
           {% endif %}
@@ -46,15 +40,12 @@
         <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
       {% include page__meta.html %}
-      {% if page.header.cta_url %}
-        <p><a href="{{ page.header.cta_url | relative_url }}" class="btn btn--success btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
-      {% endif %}
-      {% if page.header.actions %}
         <p>
-        {% for action in page.header.actions %}
-          <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
-        {% endfor %}
-      {% endif %}
+          <a href="/en/services/comfort-web-success-package" class="btn btn--primary-outline btn--large">Discover the Comfort Web Success Package!</a><br><br>
+
+          <a href="/en/customer-journey" class="btn btn--light-outline btn--large">Your Easy Journey Explained</a>
+
+          <a href="/free-resources" class="btn btn--light-outline btn--large">Free Resources to Support Your Success</a>
     </div>
   {% else %}
     <img src="{{ page.header.image | relative_url }}" alt="{{ image_description }}" class="page__hero-image">

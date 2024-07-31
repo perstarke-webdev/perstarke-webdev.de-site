@@ -23,18 +23,12 @@
 >
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
-      <a href="/testimonials" rel="noopener noreferrer nofollow" target="_blank" class="btn btn--light-outline btn--small"><i class="fas fa-star" style="color: #FFFF66;"></i><i class="fas fa-star" style="color: #FFFF66;"></i><i class="fas fa-star" style="color: #FFFF66;"></i><i class="fas fa-star" style="color: #FFFF66;"></i><i class="fas fa-star" style="color: #FFFF66;"></i> von all meinen Kund*Innen</a>
-      <a rel="noopener noreferrer nofollow" href="/services" target="_blank" class="btn btn--light-outline btn--small">Hohe Qualität ab 499 € - spare 2500 € im Vergleich zum Branchenstandard</a>
-      <a rel="noopener noreferrer nofollow" href="/services" target="_blank" class="btn btn--light-outline btn--small">Individuelle Angebote</a>
-      <a rel="noopener noreferrer nofollow" href="/contact" target="_blank" class="btn btn--light-outline btn--small">Immer da für deine Fragen</a>
-      <a rel="noopener noreferrer nofollow" href="/contact" target="_blank" class="btn btn--light-outline btn--small">Unverbindliches Erstgespräch</a>
-      <br><br>
       <h1 id="page-title" class="page__title" itemprop="headline">
         {% if paginator and site.paginate_show_page_num %}
           {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
         {% else %}
           {% if page.title == "Per Starke - Web Development" %}
-          Individual Web Development <span class="side-header"> By Per Starke </span>
+          Der einfache Weg zu der professionellen Online-Präsenz, die dein Unternehmen verdient
           {% else %}
             {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
           {% endif %}
@@ -46,15 +40,13 @@
         <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
       {% include page__meta.html %}
-      {% if page.header.cta_url %}
-        <p><a href="{{ page.header.cta_url | relative_url }}" class="btn btn--success btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
-      {% endif %}
-      {% if page.header.actions %}
         <p>
-        {% for action in page.header.actions %}
-          <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
-        {% endfor %}
-      {% endif %}
+          <a href="/services/comfort-web-success-package" class="btn btn--primary-outline btn--large">Entdecke das "Comfort Web Success" Paket!</a><br><br>
+
+          <a href="/customer-journey" class="btn btn--light-outline btn--large">Der einfache Prozess zu deiner Website</a>
+
+          <a href="/german/free-resources" class="btn btn--light-outline btn--large">Kostenlose Ressourcen für Deinen Erfolg</a>
+
     </div>
   {% else %}
     <img src="{{ page.header.image | relative_url }}" alt="{{ image_description }}" class="page__hero-image">

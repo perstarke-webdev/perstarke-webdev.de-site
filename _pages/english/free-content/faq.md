@@ -11,7 +11,13 @@ excerpt: "Frequently asked questions on website creations and website remakes"
 ---
 
 ## How does the collaboration for creating a website work?
-Since this is a very common question, I have published a short blog post on my website about it. You can [find it here](https://perstarke-webdev.de/posts/en/your-website).
+
+Since this is a very common question, I have detailed the entire process in the customer journey section of my website. You can [find it here](/en/customer-journey).
+
+![Customer Journey](/images/customer-journey.png)
+
+This section provides a comprehensive overview of what you can expect, from the initial consultation to ongoing support, ensuring a smooth and stress-free experience.
+
 
 ## How much does a remake or a new creation of my site cost?
 The cost of creating or redesigning a website varies depending on the scope and complexity of the project.

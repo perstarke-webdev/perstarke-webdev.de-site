@@ -11,7 +11,14 @@ excerpt: "Häufig gestellte Fragen zur Erstellung und Überarbeitung von Website
 ---
 
 ## Wie läuft die Zusammenarbeit bei der Erstellung einer Website ab?
-Da dies eine sehr häufige Frage ist, habe ich dazu einen kurzen Blogpost auf meiner Website veröffentlicht. Du kannst [ihn hier finden](https://perstarke-webdev.de/posts/your-website).
+
+Da dies eine sehr häufig gestellte Frage ist, habe ich den gesamten Prozess im Abschnitt "Customer Journey" auf meiner Website ausführlich beschrieben. Du kannst ihn [hier finden](/customer-journey).
+
+![Customer Journey](/images/customer-journey-german.png)
+
+Dieser Abschnitt bietet einen umfassenden Überblick darüber, was Du erwarten kannst, von der ersten Beratung bis hin zur fortlaufenden Unterstützung, um eine reibungslose und stressfreie Erfahrung zu gewährleisten.
+
+
 
 ## Was kostet ein Remake meiner Seite oder eine Neu-Erstellung?
 Die Kosten für die Erstellung oder Überarbeitung einer Website variieren je nach Umfang und Komplexität des Projekts. Einige Faktoren, die die Kosten beeinflussen können, sind die Größe der Website, die Anzahl der benötigten Seiten und Funktionen sowie der gewünschte maximale Zeitaufwand. Die Preise können zwischen den Anbietern stark variieren. Es hängt auch davon ab, ob du die Website von einem externen Anbieter erstellen lässt oder selbst versuchst, sie zu erstellen.
