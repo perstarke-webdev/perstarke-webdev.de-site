@@ -7,6 +7,15 @@ header:
     overlay_filter: rgba(0, 0, 0, 0.6)
 excerpt: "Webseiten, die ich gestaltet oder bei denen ich mitgewirkt habe"
 
+
+kraftkollektiv:
+  - title: "Kraftkollektiv Powerlifting"
+    image_path: /images/references/kraftkollektiv.png
+    url: "https://www.kraft-kollektiv.de/"
+    btn_label: "Zur Webseite"
+    btn_class: "btn--primary"
+    excerpt: "Die Vintage-Style Webseite für das (übrigens absolut sympathische :D) Powerlifting-Coaching-Trio Mara, Robert und Kilian, aka das Kraftkollektiv"
+
 esa:
 - title: "Effektive Software-architekturen - die Webseite zum Buch"
   image_path: /images/references/esa-cover.png
@@ -186,7 +195,11 @@ req42_docs:
   excerpt: "Tipps zur Verwendung des req42-Templates."
 ---
 
-<div class="references_bright" id="ref-twenty">
+<div class="references_dark" id="ref-twenty-one">
+  {% include feature_row id="kraftkollektiv" type="left" %}
+</div>
+
+<div class="references_bright hide-for-fade-in" id="ref-twenty">
   {% include feature_row id="esa" type="right" %}
 </div>
 
