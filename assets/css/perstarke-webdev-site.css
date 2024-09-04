@@ -330,6 +330,32 @@ Angebot / Marketing
     margin-right: 20px;
 }
 
+/* Media query for mobile */
+@media (max-width: 767px) {
+    .three-images-container {
+        flex-wrap: wrap; /* Allow items to wrap onto new lines */
+        justify-content: flex-start; /* Align items to start on new lines */
+    }
+
+    .three-images-container a {
+        width: 100%; /* Full width for each item */
+        margin-right: 0; /* No margin on the right */
+        margin-bottom: 20px; /* Margin between items vertically */
+    }
+}
+
+.video-half {
+    width: 50vw;
+    margin: 0 auto;
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .video-half {
+      width: 100%;
+    }
+}
+
 .two-images-container {
     display: flex;
     justify-content: space-between;
