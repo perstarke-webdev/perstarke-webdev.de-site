@@ -356,6 +356,28 @@ Angebot / Marketing
     }
 }
 
+.video-part-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.video-part {
+    width: 48%;
+}
+
+@media (max-width: 767px) {
+    .video-part-container {
+        flex-direction: column;
+    }
+
+    .video-part {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
 .two-images-container {
     display: flex;
     justify-content: space-between;
