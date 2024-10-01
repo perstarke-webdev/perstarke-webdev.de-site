@@ -6,6 +6,14 @@ header:
     overlay_image: /images/photos/sydney-2.webp
     overlay_filter: rgba(0, 0, 0, 0.6)
 
+uts:
+- title: "Study Abroad - University of Technology Sydney"
+  image_path: /images/about/sydney-nature.webp
+  url: "https://blog.perstarke-webdev.de/traveling"
+  btn_label: "Meine letzte Reise nach Sydney"
+  btn_class: "btn--primary"
+  excerpt: "Ab Februar 2025 studiere ich für ein Jahr lang an der University of Technology in Sydney (Mein all-time favorite place on earth, Sydney ist einfach pure love!).
+Dort vertiefe ich meine Kenntnisse in Informatik, Marketing, Design und Kommunikation noch weiter."
 
 ai:
 - title: "Master of Science - Angewandte Informatik"
@@ -29,8 +37,12 @@ webdev:
   image_path: /images/about/ps-logo.webp
   btn_label: "Referenzen"
   btn_class: "btn--primary"
-  excerpt: "Ich durfte schon viel Erfahrung im Web Development Bereich sammeln. Unter [Referenzen](/references)
-            findest Du einige Webseiten, die ich gestaltet oder bei denen ich mitgewirkt habe."
+  excerpt: "Ich habe bereits umfassende Erfahrung im Bereich Web Development gesammelt und konnte an
+mittlerweile über 25 verschiedensten Projekten mitwirken. Unter [Referenzen](/references)
+findest Du eine Auswahl von Webseiten, die ich entworfen habe oder bei deren Umsetzung ich maßgeblich beteiligt war.
+Mein Fokus liegt darauf, auch kleinen Unternehmen qualitative und effektive Websites zu bieten –
+bezahlbar, individuell und stressfrei. Denn jede:r sollte die Möglichkeit haben, online professionell vertreten zu
+sein, ohne sich über Kosten oder technische Hürden den Kopf zerbrechen zu müssen."
 
 blog:
 - title: "Blogger"
@@ -43,11 +55,17 @@ blog:
 kdk:
 - title: "Powerlifter & Metal-Fan"
   image_path: /images/about/kdk.webp
+  url: "https://www.instagram.com/per.starke"
+  btn_label: "Mein persönlicher Instagram-Account"
+  btn_class: "btn--primary"
   excerpt: "Ich bin leidenschaftlicher Wettkampf-Kraftsportler mit einem Faible für Metal-Musik :musical_note:"
 
 travel:
 - title: "Leidenschaftlicher Traveler"
   image_path: /images/about/travel.webp
+  url: "https://blog.perstarke-webdev.de/traveling"
+  btn_label: "Mein Reise-Blog"
+  btn_class: "btn--primary"
   excerpt: "Ich möchte gerne alles was geht von der Welt erkunden - von unterwegs arbeite ich genau so intensiv, fokussiert und kreativ an deiner Website :)"
 
 excerpt: "Ein bisschen was über mich :)"
@@ -56,16 +74,18 @@ excerpt: "Ein bisschen was über mich :)"
 
 <div class="about-box">
 
-    {% include feature_row id="coxi" type="left" %}
-
-    {% include feature_row id="ai" type="right" %}
-
     {% include feature_row id="webdev" type="left"%}
 
-    {% include feature_row id="blog" type="right"%}
+    {% include feature_row id="coxi" type="right" %}
 
-    {% include feature_row id="kdk" type="left"%}
+    {% include feature_row id="ai" type="left" %}
 
-    {% include feature_row id="travel" type="right"%}
+    {% include feature_row id="uts" type="right" %}
+
+    {% include feature_row id="blog" type="left"%}
+
+    {% include feature_row id="kdk" type="right"%}
+
+    {% include feature_row id="travel" type="left"%}
 
 </div>
