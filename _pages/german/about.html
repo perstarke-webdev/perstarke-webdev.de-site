@@ -92,37 +92,51 @@ excerpt: "Ein bisschen was über mich :)"
 
 
 
-<div class='sk-instagram-feed-container'>
-    <div class='sk-instagram-feed' data-embed-id='25469971'></div>
+<div id="instagram-feed-container">
+    <div class="sk-instagram-feed" data-embed-id="25469971"></div>
 </div>
 
-<script src='https://widgets.sociablekit.com/instagram-feed/widget.js' async defer></script>
+<script src="https://widgets.sociablekit.com/instagram-feed/widget.js" async defer></script>
 
 <script>
     // Function to adjust the parent's height
     function adjustParentHeight() {
-      var childElement = document.querySelector('.sk-instagram-feed');
-      if (childElement) {
-        var parentElement = document.querySelector('.sk-instagram-feed-container');
-        parentElement.style.height = (childElement.offsetHeight - 150) + 'px';
-      }
+        var childElement = document.querySelector('#instagram-feed-container .sk-instagram-feed');
+        var parentElement = document.getElementById('instagram-feed-container');
+        if (childElement && parentElement) {
+            var newHeight = childElement.offsetHeight - 150;
+            // Ensure the new height is not negative or too small
+            if (newHeight > 300) { // Adjust 300px as needed
+                parentElement.style.height = newHeight + 'px';
+            } else {
+                parentElement.style.height = '300px'; // Fallback height
+            }
+        }
     }
 
-    // Create a MutationObserver to watch for changes in the DOM
-    var observer = new MutationObserver(function(mutationsList) {
-      for (var mutation of mutationsList) {
-        if (mutation.type === 'childList' || mutation.type === 'attributes') {
-          // Content has changed, or attributes have changed
-          adjustParentHeight();
+    // Function to initialize the MutationObserver
+    function initObserver() {
+        var containerElement = document.getElementById('instagram-feed-container');
+        if (containerElement) {
+            var observer = new MutationObserver(function(mutationsList) {
+                for (var mutation of mutationsList) {
+                    if (mutation.type === 'childList' || mutation.type === 'attributes') {
+                        adjustParentHeight();
+                    }
+                }
+            });
+            var config = { childList: true, attributes: true, subtree: true };
+            observer.observe(containerElement, config);
         }
-      }
+    }
+
+    // Wait for the widget script to load and the feed to render
+    window.addEventListener('load', function() {
+        // Delay to ensure the feed has loaded
+        setTimeout(function() {
+            adjustParentHeight();
+            initObserver();
+        }, 500);
     });
+</script>
 
-    // Configure the observer to monitor changes to the DOM within a specific container
-    var containerElement = document.querySelector('.sk-instagram-feed-container');
-    var config = { childList: true, attributes: true, subtree: true };
-    observer.observe(containerElement, config);
-
-    // Initially adjust the height
-    adjustParentHeight();
-  </script>
