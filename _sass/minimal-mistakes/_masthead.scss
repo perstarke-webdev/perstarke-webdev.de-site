@@ -3,13 +3,18 @@
    ========================================================================== */
 
 .masthead {
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #252a34;
+
   border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
-  z-index: 20;
+  z-index: 200;
 
   &__inner-wrap {
     @include clearfix;
