@@ -2,36 +2,36 @@
 main:
   - title: "Home"
     url: /
+  - title: "Leistungen"
+    url: /services
   - title: "Über mich"
     url: /about
   - title: "Referenzen"
     url: /references
-  - title: "Leistungen"
-    url: /services
   - title: "Testimonials"
     url: /testimonials
   - title: "Projekte"
     url: /projects
-  - title: "Blog"
-    url: "https://blog.perstarke-webdev.de/"
   - title: "Kontakt"
     url: /contact
+  - title: "Blog"
+    url: "https://blog.perstarke-webdev.de/"
 
 main_en:
   - title: "Home"
     url: /en
+  - title: "Services"
+    url: /en/services
   - title: "About me"
     url: /en/about
   - title: "References"
     url: /en/references
-  - title: "Services"
-    url: /en/services
   - title: "Testimonials"
     url: /en/testimonials
   - title: "Projects"
     url: /en/projects
-  - title: "Blog"
-    url: "https://blog.perstarke-webdev.de/"
   - title: "Contact"
     url: /en/contact
+  - title: "Blog"
+    url: "https://blog.perstarke-webdev.de/"
 
