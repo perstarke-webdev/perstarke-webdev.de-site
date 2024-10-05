@@ -23,15 +23,11 @@
 
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
-      <h1 id="page-title" class="page__title" itemprop="headline" style="margin-top: 7rem;">
+      <h1 id="page-title" class="page__title" itemprop="headline" style="margin-top: 8rem;">
         {% if paginator and site.paginate_show_page_num %}
           {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
         {% else %}
-          {% if page.title == "Per Starke - Web Development" %}
-          Individual Web Development <span class="side-header"> By Per Starke </span>
-          {% else %}
             {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
-          {% endif %}
         {% endif %}
       </h1>
       {% if page.tagline %}
@@ -41,13 +37,20 @@
       {% endif %}
       {% include page__meta.html %}
       {% if page.header.cta_url %}
-        <p><a href="{{ page.header.cta_url | relative_url }}" class="btn btn--primary-outline btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
-      {% endif %}
+        <p><a href="{{ page.header.cta_url | relative_url }}" class="btn btn--primary-outline btn--large" style="margin-top: 2rem;">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+      {% if page.header.actions %}
+      <p>
+        {% for action in page.header.actions %}
+        <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+        {% endfor %}
+        {% endif %}
+        {% else %}
       {% if page.header.actions %}
         <p>
         {% for action in page.header.actions %}
-          <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+          <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large" style="margin-top: 2rem;>{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
         {% endfor %}
+      {% endif %}
       {% endif %}
     </div>
   {% else %}
