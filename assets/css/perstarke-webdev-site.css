@@ -30,6 +30,10 @@ Posts
     color: green;
 }
 
+.light-green {
+    color: #90EE90;
+}
+
 .red {
     color: red;
 }
@@ -95,6 +99,14 @@ span.big-colorful-header {
 
 .light-color {
     color: var(--light-skin-color);
+}
+
+.coral {
+    color: #ff7f50;
+}
+
+.lavender {
+    color: #b57edc;
 }
 
 .italic {
