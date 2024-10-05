@@ -4,7 +4,7 @@ title: Example images
 permalink: /en/gallery
 header:
     overlay_image: /images/photos/sydney-8.webp
-    overlay_filter: rgba(0, 0, 0, 0.6)
+    overlay_filter: rgba(0, 0, 0, 0.7)
 ---
 <div class="notice"> Example images are taken from the german version of this site, but 
 still successfully serve the purpose of giving you some illustrating examples</div>

@@ -4,7 +4,7 @@ title: Beispiel-Bilder
 permalink: /gallery
 header:
     overlay_image: /images/photos/sydney-8.webp
-    overlay_filter: rgba(0, 0, 0, 0.6)
+    overlay_filter: rgba(0, 0, 0, 0.7)
 ---
 
 # Mobile Ansicht vs. Desktop-Ansicht:

@@ -6,7 +6,7 @@ toc_label: Inhaltsübersicht
 permalink: /faq
 header:
     overlay_image: /images/photos/sydney-2.webp
-    overlay_filter: rgba(0, 0, 0, 0.6)
+    overlay_filter: rgba(0, 0, 0, 0.7)
 excerpt: "Häufig gestellte Fragen zur Erstellung und Überarbeitung von Websites"
 ---
 
