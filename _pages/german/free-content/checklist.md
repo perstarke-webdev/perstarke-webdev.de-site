@@ -6,7 +6,7 @@ toc_label: "Inhaltsverzeichnis"
 permalink: /website-checklist
 header:
     overlay_image: /images/photos/sydney-9.webp
-    overlay_filter: rgba(0, 0, 0, 0.7)
+    overlay_filter: rgba(0, 0, 0, 0.5)
 excerpt: "Eine umfassende Checkliste, um dir zu helfen, festzustellen, ob deine Website den heutigen wesentlichen Standards entspricht, und um umsetzbare Schritte zur Verbesserung bereitzustellen"
 ---
 

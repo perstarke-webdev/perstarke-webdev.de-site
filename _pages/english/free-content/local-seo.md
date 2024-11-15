@@ -6,7 +6,7 @@ toc_label: "Table of Contents"
 permalink: /en/local-seo
 header:
     overlay_image: /images/photos/sydney-7.webp
-    overlay_filter: rgba(0, 0, 0, 0.7)
+    overlay_filter: rgba(0, 0, 0, 0.5)
 excerpt: "A comprehensive overview to help you improve your local search engine visibility to help you reach more customers"
 ---
 

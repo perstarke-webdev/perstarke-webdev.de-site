@@ -6,7 +6,7 @@ toc_label: Table of Contents
 permalink: /en/faq
 header:
     overlay_image: /images/photos/sydney-2.webp
-    overlay_filter: rgba(0, 0, 0, 0.7)
+    overlay_filter: rgba(0, 0, 0, 0.5)
 excerpt: "Frequently asked questions on website creations and website remakes"
 ---
 

@@ -6,7 +6,7 @@ toc_label: "Inhaltsverzeichnis"
 permalink: /local-seo
 header:
     overlay_image: /images/photos/sydney-7.webp
-    overlay_filter: rgba(0, 0, 0, 0.7)
+    overlay_filter: rgba(0, 0, 0, 0.5)
 excerpt: "Ein umfassender Überblick, der dir hilft, deine lokale Sichtbarkeit in Suchmaschinen zu verbessern, um mehr Kund:innen zu erreichen"
 ---
 
