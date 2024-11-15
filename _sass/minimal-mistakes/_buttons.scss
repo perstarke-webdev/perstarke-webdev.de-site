@@ -99,3 +99,29 @@
     font-size: $type-size-7;
   }
 }
+
+.masthead__menu-item {
+  position: relative !important;
+  top: 5px !important;
+}
+
+.btn-nav {
+  position: relative !important;
+  top: -4px !important;
+  margin-right: 4rem !important;
+}
+
+.btn-nav-german {
+  margin-right: 2rem !important;
+}
+
+.btn-nav:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+@media (max-width: 600px) {
+  .btn-nav, .btn-nav-german {
+    margin-right: 1rem !important;
+  }
+}
