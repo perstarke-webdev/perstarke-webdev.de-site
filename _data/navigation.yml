@@ -8,8 +8,6 @@ main:
     url: /references
   - title: "Testimonials"
     url: /testimonials
-  - title: "Projekte"
-    url: /projects
   - title: "Kontakt"
     url: /contact
   - title: "Blog"
@@ -24,8 +22,6 @@ main_en:
     url: /en/references
   - title: "Testimonials"
     url: /en/testimonials
-  - title: "Projects"
-    url: /en/projects
   - title: "Contact"
     url: /en/contact
   - title: "Blog"
