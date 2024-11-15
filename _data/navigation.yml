@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "Home"
-    url: /
   - title: "Leistungen"
     url: /services
   - title: "Über mich"
@@ -18,8 +16,6 @@ main:
     url: "https://blog.perstarke-webdev.de/"
 
 main_en:
-  - title: "Home"
-    url: /en
   - title: "Services"
     url: /en/services
   - title: "About me"
