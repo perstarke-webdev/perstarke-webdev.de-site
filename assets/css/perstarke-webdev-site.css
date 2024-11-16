@@ -569,7 +569,6 @@ Angebot / Marketing
 
 .features-container {
     display: flex;
-    justify-content: center; /* Centers items horizontally */
     gap: 2rem; /* Adds spacing between the items */
     flex-wrap: wrap; /* Ensures responsiveness */
     text-align: center; /* Centers text within each item */
