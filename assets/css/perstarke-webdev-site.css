@@ -549,3 +549,59 @@ Angebot / Marketing
     }
 
 }
+
+
+
+
+.sep-section {
+    padding: 0 5vw 0 5vw;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    background-color: #007f89;
+    text-align: center;
+}
+
+
+
+
+.features-container {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    gap: 2rem; /* Adds spacing between the items */
+    flex-wrap: wrap; /* Ensures responsiveness */
+    text-align: center; /* Centers text within each item */
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem 1rem; /* Adds spacing around the section */
+}
+
+.feature-item {
+    flex: 1 1 20%; /* Each item takes up 30% of the row */
+}
+
+.feature-icon {
+    font-size: 2rem; /* Adjusts icon size */
+    color: #00122a; /* Icon color */
+    margin-bottom: 1rem; /* Space below the icon */
+}
+
+.feature-item h4 {
+    font-weight: bold;
+    color: #00122a; /* Title color */
+}
+
+.feature-item p {
+    font-size: 1rem; /* Paragraph size */
+    color: #00122a; /* Text color */
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .feature-item {
+        flex: 1 1 100%; /* Items stack on smaller screens */
+        max-width: none;
+    }
+}
