@@ -604,3 +604,7 @@ Angebot / Marketing
         max-width: none;
     }
 }
+
+.small-bottom-margin {
+    margin-bottom: 20px !important;
+}
