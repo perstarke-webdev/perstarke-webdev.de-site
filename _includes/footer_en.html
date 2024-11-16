@@ -1,41 +1,49 @@
-<div class="page__footer-follow center">
-  <ul class="social-icons">
+<footer class="page__footer">
+  <div class="footer-container">
+    <!-- Contact Section -->
+    <div class="footer-column">
+      <h4>Get in touch</h4>
+      <p>
+        Are you unsure or have any questions? Don’t hesitate – I’m here for you! Feel free to use my
+        <a href="/en/contact">contact page</a> or write to me directly. I’m happy to help and answer all your questions personally. Together, we’ll find the best solution for your wishes and needs.
+      </p>
+      <p>
+        <a href="mailto:info@perstarke-webdev.de"><i class="fas fa-envelope colorful-icon"></i> info@perstarke-webdev.de</a><br>
+        <a href="https://wa.link/vp91pf" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp colorful-icon"></i> Message me on WhatsApp</a>
+      </p>
+    </div>
 
-    {% if site.author.github %}
-      <li><a href="https://github.com/{{ site.author.github }}" class="underline-hover-effect"
-             rel="noopener noreferrer nofollow"
-            target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
-    {% endif %}
+    <!-- Links Section -->
+    <div class="footer-column footer-links">
+      <h4>Links</h4>
+      <ul>
+        <li><a href="/en/services">Services</a></li>
+        <li><a href="/en/about">About Me</a></li>
+        <li><a href="/en/references">References</a></li>
+        <li><a href="/en/projects">Further Projects</a></li>
+        <li><a href="/">German Version</a></li>
+      </ul>
+    </div>
 
-    <li><a href="https://www.youtube.com/channel/UCG2Ndo4IEH8Fa0oIv2FBRMA" class="underline-hover-effect"
-           rel="noopener noreferrer nofollow"
-           target="_blank"><i class="fab fa-fw fa-youtube" style="color: rgb(255,0,0);" aria-hidden="true"></i>
-        YouTube</a></li>
+    <!-- News Section -->
+    <div class="footer-column">
+      <h4>News</h4>
+      <p>
+        Want more? From web development over traveling to personal growth, you’ll find everything covered here.
+      </p>
+      <p><a href="https://blog.perstarke-webdev.de/" target="_blank" rel="noopener noreferrer">Visit the Panorama Perspectives Blog</a></p>
 
-    <li><a href="https://www.instagram.com/perstarke_webdev/" class="underline-hover-effect"
-           rel="noopener noreferrer nofollow"
-           target="_blank"><i class="fab fa-fw fa-instagram instagram" aria-hidden="true"></i> Instagram</a></li>
+      <h4>Social</h4>
+      <ul class="social-icons">
+        <li><a href="https://github.com/perstarke-webdev" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCG2Ndo4IEH8Fa0oIv2FBRMA" target="_blank" rel="noopener noreferrer" title="YouTube"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="https://www.instagram.com/perstarke_webdev/" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://dev.to/per-starke-642" target="_blank" rel="noopener noreferrer" title="Dev.to"><i class="fab fa-dev"></i></a></li>
+      </ul>
+    </div>
+  </div>
 
-    <li><a href="https://dev.to/per-starke-642" class="underline-hover-effect"
-           rel="noopener noreferrer nofollow"
-           target="_blank"><i class="fab fa-fw fa-dev" aria-hidden="true"></i> Dev.to</a></li>
-
-    <li><a href="https://blog.perstarke-webdev.de/" class="underline-hover-effect"
-           rel="noopener noreferrer nofollow"
-           target="_blank"><i class="fas fa-fw fa-blog" aria-hidden="true" style="color: #00adb5"></i> Panorama Perspectives Blog</a></li>
-
-    <li><a href="/en/projects" class="underline-hover-effect"
-           rel="noopener noreferrer nofollow"
-           target="_blank"><i class="fas fa-fw fas fa-project-diagram" aria-hidden="true" style="color: #00adb5"></i> Further Projects</a></li>
-
-    <li><a href="/" class="underline-hover-effect"><i class="fas fa-fw fas fa-flag" aria-hidden="true" style="color: #00adb5"></i> German Version</a></li>
-
-
-    <li><a href="{{ '/en/imprint' | absolute_url }}" class="underline-hover-effect"
-           rel="noopener noreferrer nofollow"
-           target="_blank"><i class="fas fa-fw fa-gavel" style="color:Tomato" aria-hidden="true"></i> Imprint & privacy</a></li>
-  </ul>
-</div>
-
-<div class="page__footer-copyright center">&copy; {{ site.time | date: '%Y' }} Per Starke.
-</div>
+  <div class="footer-bottom">
+    <p>&copy; {{ site.time | date: '%Y' }} Per Starke.<br> <a href="/en/guarantee-terms">Satisfaction Guarantee</a> • <a href="/en/imprint">Privacy & Imprint</a></p>
+  </div>
+</footer>

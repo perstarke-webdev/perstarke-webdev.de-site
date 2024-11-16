@@ -190,40 +190,6 @@ Fade in elements on scroll
   opacity: 100%;
 }
 
-/**
-underline links on hover
-*/
-
-a.underline-hover-effect:hover{
-    text-decoration: none !important;
-}
-
-.underline-hover-effect{
-    display: inline-block;
-    position: relative;
-    margin-right: 10px;
-}
-
-.underline-hover-effect::after{
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 1px;
-    bottom: -2px;
-    left: 0;
-    background-color: white;
-    transform-origin: bottom right;
-    transition: transform 0.25s;
-    transition-delay: 0.1s;
-}
-
-.underline-hover-effect:hover::after{
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-
-
 
 .btn-custom {
     display: inline-block;
@@ -451,4 +417,129 @@ Angebot / Marketing
 
 .img-link:hover {
    transform: scale(1.03);
+}
+
+
+
+
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.footer-links {
+    padding-left: 5rem;
+}
+
+.footer-column {
+    flex: 1 1 calc(33.333% - 2rem);
+    min-width: 250px;
+    font-size: 0.7rem;
+}
+
+.footer-column h4 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-column a {
+    color: #00adb5 !important;
+    text-decoration: none;
+}
+
+.colorful-icon {
+    color: #00adb5 !important;
+}
+
+.footer-column ul li a {
+    color: #00adb5;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+.social-icons li a {
+    width: 50px;
+    height: 50px;
+    background-color: #00adb5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem; /* Adjust icon size */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons li a i{
+    color: #ffffff !important;
+}
+
+.social-icons li a:hover {
+    background-color: #007f89;
+    text-decoration: none !important;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 0.7rem;
+}
+
+.social-icons li {
+    margin: 0;
+    display: inline-block; /* Ensures the list items behave like inline elements */
+}
+
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #333333;
+    padding-top: 1rem;
+    margin-top: 2rem;
+}
+
+.footer-bottom a {
+    color: #00adb5 !important;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .footer-column {
+        flex: 1 1 100%;
+    }
+
+    .footer-links {
+        padding-left: 0;
+    }
+
 }

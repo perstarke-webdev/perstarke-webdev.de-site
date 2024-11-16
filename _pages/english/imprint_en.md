@@ -1,6 +1,6 @@
 ---
 layout: single_en
-title: Imprint and privacy
+title: <br><br><br><br><br><br><br>Imprint and privacy
 permalink: /en/imprint
 ---
 
@@ -79,7 +79,3 @@ Auf dieser Webseite wird FontAwesome allerdings lokal gehostet und somit keine D
 
 #### Widerruf, Änderungen, Berichtigungen und Aktualisierungen
 Der Nutzer hat das Recht, auf Antrag unentgeltlich Auskunft zu erhalten über die personenbezogenen Daten, die über ihn gespeichert wurden. Zusätzlich hat der Nutzer das Recht auf Berichtigung unrichtiger Daten, Sperrung und Löschung seiner personenbezogenen Daten, soweit dem keine gesetzliche Aufbewahrungspflicht entgegensteht.<br />
-
-#### Quelle
-Danke an Hr Rechtsanwalt Thomas Schwenke:<br>
-<a href="http://rechtsanwalt-schwenke.de/smmr-buch/datenschutz-muster-generator-fuer-webseiten-blogs-und-social-media/"><strong>Datenschutz-Muster von Rechtsanwalt Thomas Schwenke - I LAW it</strong></a>
