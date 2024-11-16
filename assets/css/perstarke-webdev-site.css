@@ -113,8 +113,8 @@ span.big-colorful-header {
     font-style: italic;
 }
 
-h3.with-bottom-margin {
-    margin-bottom: 15px;
+.with-bottom-margin {
+    margin-bottom: 40px;
 }
 
 span.side-header {
@@ -322,17 +322,23 @@ Angebot / Marketing
     }
 }
 
-.video-half {
-    width: 50vw;
-    margin: 0 auto;
-    display: block;
+.video-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    gap: 3rem; /* Adds spacing between the videos */
+    align-items: center;
 }
 
-@media (max-width: 767px) {
+.video-half {
+    flex: 1 1 35%;
+}
+
+@media (max-width: 768px) {
     .video-half {
-      width: 100%;
+        flex: 1 1 100%; /* Videos take full width on smaller screens */
     }
 }
+
 
 .video-part-container {
     display: flex;
