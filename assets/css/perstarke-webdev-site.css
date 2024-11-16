@@ -608,3 +608,80 @@ Angebot / Marketing
 .small-bottom-margin {
     margin-bottom: 20px !important;
 }
+
+
+.services-section {
+    text-align: center !important;
+}
+
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.service-card {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    flex: 1 1 35%;
+    position: relative;
+}
+
+.service-card .circle {
+    width: 30px;
+    height: 30px;
+    background-color: #00122a;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.service-card h3 {
+    font-size: 1.4rem;
+    margin: 2rem 0 1rem;
+}
+
+.service-card p {
+    margin-bottom: 1rem;
+    color: #c0c0c0;
+}
+
+.service-card .price {
+    font-size: 0.9rem;
+    color: #00adb5;
+}
+
+.service-card .badge {
+    background-color: #ffc107;
+    color: #00122a;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+@media (max-width: 768px) {
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .service-card {
+        flex: 1 1 100%;
+    }
+}
