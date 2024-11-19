@@ -6,10 +6,6 @@ main:
     url: /about
   - title: "Referenzen"
     url: /references
-  - title: "Testimonials"
-    url: /testimonials
-  - title: "Kontakt"
-    url: /contact
   - title: "Blog"
     url: "https://blog.perstarke-webdev.de/"
 
@@ -20,10 +16,6 @@ main_en:
     url: /en/about
   - title: "References"
     url: /en/references
-  - title: "Testimonials"
-    url: /en/testimonials
-  - title: "Contact"
-    url: /en/contact
   - title: "Blog"
     url: "https://blog.perstarke-webdev.de/"
 
