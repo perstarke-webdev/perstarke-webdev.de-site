@@ -107,3 +107,8 @@
 .notice--danger {
   @include notice($danger-color);
 }
+
+
+.notice--kraftkollektiv {
+  @include notice(#f48838);
+}

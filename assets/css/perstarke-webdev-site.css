@@ -713,3 +713,21 @@ Angebot / Marketing
     width: 40vw;
     margin: auto;
 }
+
+.kraftkollektiv-color {
+    color: #f48838;
+}
+
+.small-top-margin {
+    margin-top: 1rem;
+}
+
+.new-testimonial {
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+    .new-testimonial {
+        text-align: center !important;
+    }
+}
