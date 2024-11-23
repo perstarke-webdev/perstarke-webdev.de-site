@@ -128,3 +128,7 @@
 .notice--neurotidal {
   @include notice(#baa2fa);
 }
+
+.notice--trainingslager {
+  @include notice(#dbb167);
+}

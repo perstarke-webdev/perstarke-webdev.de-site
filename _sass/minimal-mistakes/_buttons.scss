@@ -39,6 +39,7 @@
   (peterhruschka-outline, mix(#1453a9, transparent, 20%)),
   (littlegreenkitchen-outline, mix(#648e53, transparent, 20%)),
   (neurotidal-outline, mix(#baa2fa, transparent, 20%)),
+  (trainingslager-outline, mix(#dbb167, transparent, 20%)),
   (success, $success-color),
   (warning, $warning-color),
   (danger, $danger-color),
@@ -75,6 +76,10 @@
       }
       @if ($buttoncolor == neurotidal-outline) {
         border: 2.5px solid #baa2fa;
+        color: white !important;
+      }
+      @if ($buttoncolor == trainingslager-outline) {
+        border: 2.5px solid #dbb167;
         color: white !important;
       }
 
