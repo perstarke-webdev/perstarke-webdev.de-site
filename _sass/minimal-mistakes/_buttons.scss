@@ -36,6 +36,7 @@
   (primary-outline, mix($primary-color, transparent, 20%)),
   (kraftkollektiv-outline, mix(#82a380, transparent, 20%)),
   (wildstrengthcoaching-outline, mix(#acd239, transparent, 20%)),
+  (peterhruschka-outline, mix(#1453a9, transparent, 20%)),
   (success, $success-color),
   (warning, $warning-color),
   (danger, $danger-color),
@@ -62,6 +63,9 @@
       @if ($buttoncolor == wildstrengthcoaching-outline) {
         border: 2.5px solid #acd239;
         color: white !important;
+      }
+      @if ($buttoncolor == peterhruschka-outline) {
+        border: 2.5px solid #1453a9;
       }
 
       &:visited {
