@@ -40,6 +40,7 @@
   (littlegreenkitchen-outline, mix(#648e53, transparent, 20%)),
   (neurotidal-outline, mix(#baa2fa, transparent, 20%)),
   (trainingslager-outline, mix(#dbb167, transparent, 20%)),
+  (onward-outline, mix(#39d6a2, transparent, 20%)),
   (success, $success-color),
   (warning, $warning-color),
   (danger, $danger-color),
@@ -80,6 +81,10 @@
       }
       @if ($buttoncolor == trainingslager-outline) {
         border: 2.5px solid #dbb167;
+        color: white !important;
+      }
+      @if ($buttoncolor == onward-outline) {
+        border: 2.5px solid #39d6a2;
         color: white !important;
       }
 
