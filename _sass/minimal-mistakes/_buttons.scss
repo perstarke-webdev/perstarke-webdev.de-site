@@ -35,6 +35,7 @@
   (light-outline, transparent),
   (primary-outline, mix($primary-color, transparent, 20%)),
   (kraftkollektiv-outline, mix(#82a380, transparent, 20%)),
+  (wildstrengthcoaching-outline, mix(#acd239, transparent, 20%)),
   (success, $success-color),
   (warning, $warning-color),
   (danger, $danger-color),
@@ -58,6 +59,10 @@
       @if ($buttoncolor == kraftkollektiv-outline) {
         border: 2.5px solid #82a380;
       }
+      @if ($buttoncolor == wildstrengthcoaching-outline) {
+        border: 2.5px solid #acd239;
+        color: white !important;
+      }
 
       &:visited {
         @include yiq-contrasted($color);
@@ -66,6 +71,9 @@
       &:hover {
         @include yiq-contrasted(mix(#000, $color, 20%));
         @if ($buttoncolor == kraftkollektiv-outline) {
+          color: white !important;
+        }
+        @if ($buttoncolor == wildstrengthcoaching-outline) {
           color: white !important;
         }
       }

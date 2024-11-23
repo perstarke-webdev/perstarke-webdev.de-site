@@ -723,11 +723,22 @@ Angebot / Marketing
 }
 
 .new-testimonial {
-    margin-bottom: 2rem;
 }
 
 @media (max-width: 768px) {
     .new-testimonial {
         text-align: center !important;
     }
+}
+
+.references-sep {
+    padding: 0 5vw 0 5vw;
+    height: 6rem;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    margin: 2rem 0 2rem 0;
 }
