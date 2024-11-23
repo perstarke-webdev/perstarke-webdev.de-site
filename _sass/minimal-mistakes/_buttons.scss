@@ -38,6 +38,7 @@
   (wildstrengthcoaching-outline, mix(#acd239, transparent, 20%)),
   (peterhruschka-outline, mix(#1453a9, transparent, 20%)),
   (littlegreenkitchen-outline, mix(#648e53, transparent, 20%)),
+  (neurotidal-outline, mix(#baa2fa, transparent, 20%)),
   (success, $success-color),
   (warning, $warning-color),
   (danger, $danger-color),
@@ -70,6 +71,10 @@
       }
       @if ($buttoncolor == littlegreenkitchen-outline) {
         border: 2.5px solid #ecd1c3;
+        color: white !important;
+      }
+      @if ($buttoncolor == neurotidal-outline) {
+        border: 2.5px solid #baa2fa;
         color: white !important;
       }
 
