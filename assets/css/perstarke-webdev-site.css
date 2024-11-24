@@ -774,3 +774,7 @@ Angebot / Marketing
     align-items: center;
     font-size: 150%;
 }
+
+.gold {
+    color: goldenrod;
+}
