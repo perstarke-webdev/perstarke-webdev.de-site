@@ -41,6 +41,7 @@
   (neurotidal-outline, mix(#baa2fa, transparent, 20%)),
   (trainingslager-outline, mix(#dbb167, transparent, 20%)),
   (onward-outline, mix(#39d6a2, transparent, 20%)),
+  (inbewegung-outline, mix(#616756, transparent, 20%)),
   (success, $success-color),
   (warning, $warning-color),
   (danger, $danger-color),
@@ -85,6 +86,10 @@
       }
       @if ($buttoncolor == onward-outline) {
         border: 2.5px solid #39d6a2;
+        color: white !important;
+      }
+      @if ($buttoncolor == inbewegung-outline) {
+        border: 2.5px solid #616756;
         color: white !important;
       }
 
