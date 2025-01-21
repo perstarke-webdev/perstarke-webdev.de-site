@@ -166,6 +166,20 @@ var twentytwo = document.getElementById('ref-twenty-two');
 var twentythree = document.getElementById('ref-twenty-three');
 var twentyfour = document.getElementById('ref-twenty-four');
 var twentyfive = document.getElementById('ref-twenty-five');
+var twentysix = document.getElementById('ref-twenty-six');
+var twentyseven = document.getElementById('ref-twenty-seven');
+var twentyeight = document.getElementById('ref-twenty-eight');
+var twentynine = document.getElementById('ref-twenty-nine');
+var thirty = document.getElementById('ref-thirty');
+var thirtyone = document.getElementById('ref-thirty-one');
+var thirtytwo = document.getElementById('ref-thirty-two');
+var thirtythree = document.getElementById('ref-thirty-three');
+var thirtyfour = document.getElementById('ref-thirty-four');
+var thirtyfive = document.getElementById('ref-thirty-five');
+var thirtysix = document.getElementById('ref-thirty-six');
+var thirtyseven = document.getElementById('ref-thirty-seven');
+var thirtyeight = document.getElementById('ref-thirty-eight');
+var thirtynine = document.getElementById('ref-thirty-nine');
 
 
 // Fade in elements on scroll
@@ -212,5 +226,19 @@ observer.observe(twentytwo);
 observer.observe(twentythree);
 observer.observe(twentyfour);
 observer.observe(twentyfive);
+observer.observe(twentysix);
+observer.observe(twentyseven);
+observer.observe(twentyeight);
+observer.observe(twentynine);
+observer.observe(thirty);
+observer.observe(thirtyone);
+observer.observe(thirtytwo);
+observer.observe(thirtythree);
+observer.observe(thirtyfour);
+observer.observe(thirtyfive);
+observer.observe(thirtysix);
+observer.observe(thirtyseven);
+observer.observe(thirtyeight);
+observer.observe(thirtynine);
 
 
