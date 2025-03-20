@@ -1,0 +1,161 @@
+---
+title: Search Engine Optimization (SEO) Nr. 3 - Meta-Tags
+layout: single_en
+permalink: /en/seo-three
+header:
+    overlay_image: /images/photos/sydney2025-pink-03.webp
+    overlay_filter: rgba(0, 0, 0, 0.5)
+excerpt: "In this series of posts, I want to show you what you can do to optimize your site for search engines. The third post is about Meta-Tags."
+---
+
+
+<div class="notice--info">
+    <p class="bigger">
+        SEO is a key factor in web development, but its importance varies depending on the website’s goals. While strong search engine visibility is crucial for many businesses, some websites prioritize other aspects like branding, direct traffic, or user experience.
+    </p>
+</div>
+
+Improving your website's position from 8 to 4 in a Google search, for example, results in an average of 4 times more visits - and if you reach position 1, it's another 12 times more! <a href="#1">[1]</a>, <a href="#2">[2]</a><br>
+<br>
+In this series of posts, I want to show you what you can do to optimize your site for search engines.<br>
+<br>
+Each post will explain a "To-Do" for your website's SEO.<br>
+<br>
+The prerequisite is always that the absolute basics of your website are already in place! This means you have relevant content, well-formulated texts, use keywords in your texts that are suitable for your target audience, and the structure and design of the website are clear and appealing. This includes especially a sensible navigation, so that all content is easy to find. If this is not given, further tricks won't do much for your SEO.<br>
+<br>
+
+Let's start with To-Do # 3 for your SEO - <strong>Meta-Tags!</strong><br>
+
+<hr>
+
+<h3> Overview </h3>
+
+Meta tags are short, hidden pieces of information in a webpage that help search engines understand the content, influence discoverability, and are displayed when your page appears in search results. However, they do not change the appearance or visible content of the website.
+<br><br>
+There are various meta tags, especially in the context of SEO, the following 6 are particularly important:
+<br>
+<ul class="green">
+    <li>Title-Tag</li>
+    <li>Description-Meta-Tag</li>
+    <li>Canonical-Tag</li>
+    <li>Robots-Meta-Tag</li>
+    <li>Viewport-Meta-Tag</li>
+    <li>Charset-Meta-Tag</li>
+</ul>
+
+
+
+<hr>
+
+<h3> Title-Tag </h3>
+
+<strong>Function:</strong><br>
+The title-tag defines the title of a webpage, which appears in search results and is displayed in the browser tab.
+<br><br><strong>Example:</strong><br>
+<div class="url-box">
+    <span class="yellow">&lt;title></span>Pers Recipes<span class="yellow">&lt;/title&gt;</span>
+</div>
+
+<br><strong>Importance for SEO:</strong><br>
+A meaningful title-tag is crucial for the click-through rate. It should be relevant, concise, and include relevant keywords. The length should not exceed about 50-60 characters to be fully displayed in search results.
+
+<hr>
+
+<h3> Description-Meta-Tag </h3>
+
+<strong>Function:</strong><br>
+The description-meta-tag provides a brief summary of the content of a webpage and is often displayed in search results below the title tag.
+
+<br><br><strong>Example:</strong><br>
+<div class="url-box">
+    <span class="yellow">&lt;meta</span> name=<span class="green">&quot;description&quot;</span> content=<span class="green">&quot;Discover the <br>best recipes for the perfect summer dinner&quot;</span><span class="yellow">&gt;</span>
+</div>
+
+<br><strong>Importance for SEO:</strong><br>
+A well-written meta description can increase the click-through rate by giving users a clear idea of the page's content. The length should be no more than 150-160 characters to ensure it is fully displayed in search results. Use relevant keywords to enhance relevance.
+
+<hr>
+
+<h3> Canonical-Tag </h3>
+
+If you have different versions of the same page, or a page is accessible via multiple URLs, it can confuse search engines.<br>
+<br>
+For example, if you have a subpage of your website that lists all the posts of your blog, and this page is accessible both at the URL <div class="url-box">https://your-website.com<span class="bold">/blog</span></div> and <div class="url-box">https://your-website.com<span class="bold">/posts</span></div>, you should use a canonical tag to show search engines which URL is considered "preferred" and should be displayed in the search results.<br>
+<br>
+For each version of the same page, you should have the following on your page, where the link in the <span class="italic">href=</span><span class="darker-green">""</span> refers to the preferred "canonical" version of the page:
+
+<div class="url-box">
+    <span class="yellow">&lt;link</span> rel=<span class="darker-green">&quot;canonical&quot;</span> href=<span class="darker-green">&quot;https://your-website.com/blog&quot;</span><span class="yellow">&gt;</span>
+</div>
+
+<hr>
+
+<h3> Robots-Meta-Tag </h3>
+
+<strong>Function:</strong><br>
+The robots-meta-tag is used to provide specific instructions to search engine crawlers
+<span class="lighter"><small>(automated programs, e.g., Google's, that crawl the internet for information about web pages)</small></span>.
+It affects whether a page is indexed
+<span class="lighter"><small>(added to the search engine's database)</small></span>
+and whether links on the page should be followed.
+
+<br><br><strong>Example for default values:</strong><br>
+<div class="url-box">
+    <span class="yellow">&lt;meta</span> name=<span class="green">&quot;robots&quot;</span> content=<span class="green">&quot;index, follow&quot;</span><span class="yellow">&gt;</span>
+</div>
+
+<br><strong>Importance for SEO:</strong><br>
+By default, pages are indexable, and links are followed. The robots-meta-tag is especially important if you want a page not to be indexed (noindex) or if you don't want search engines to follow links on this page (nofollow). This is useful, for example, for confirmation or thank-you pages, as these are not relevant to search engines.
+
+<hr>
+
+<h3> Viewport-Meta-Tag </h3>
+
+<strong>Function:</strong><br>
+The viewport-meta-tag influences the display of a webpage on mobile devices, especially the width of the display area.
+
+<br><br><strong>Example, how it should be set by default:</strong><br>
+<div class="url-box">
+    <span class="yellow">&lt;meta</span> name=<span class="green">&quot;viewport&quot;</span> content=<span class="green">&quot;<br>width=device-width, initial-scale=1.0&quot;</span><span class="yellow">&gt;</span>
+</div>
+
+<br><strong>Importance for SEO:</strong><br>
+The viewport-tag is crucial for mobile optimization. "width=device-width" ensures that the width of the page corresponds to the width of the device, and "initial-scale=1.0" sets the initial zoom level.
+
+<br><br><strong>Note:</strong><br>
+Without the viewport-tag, web pages on mobile devices may not be displayed correctly, affecting user-friendliness and SEO.
+
+<hr>
+
+<h3> Charset-Meta-Tag </h3>
+
+<strong>Function:</strong><br>
+The charset-meta-tag specifies the character encoding scheme for the webpage.
+
+<br><br><strong>Example:</strong><br>
+<div class="url-box">
+    <span class="yellow">&lt;meta</span> charset=<span class="green">&quot;UTF-8&quot;</span><span class="yellow">&gt;</span>
+</div>
+
+<br><strong>Importance for SEO:</strong><br>
+Character encoding is crucial to ensure that the text of a webpage is displayed correctly. UTF-8 is the most common character encoding and supports a wide range of characters, which is especially important if your page contains different languages or special characters.
+
+
+<br><br><strong>Note:</strong><br>
+<span class="green">Charset and viewport should be specified in the head section of each page!</span>
+
+
+
+
+
+
+
+
+
+<hr>
+<h3> Sources </h3>
+
+<span id="1">[1] Granka, Joachims & Gay. Eye-Tracking Analysis of User Behavior in WWW Search. 2004.</span><br>
+<span id="2">[2] Beus. Click Probabilities in Google SERPs. 2015.</span>
+
+

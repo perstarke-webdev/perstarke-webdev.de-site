@@ -16,6 +16,6 @@ main_en:
     url: /en/about
   - title: "References"
     url: /en/references
-  - title: "Blog"
-    url: "https://blog.perstarke-webdev.de/"
+  - title: "Free Resources"
+    url: /en/free-resources"
 
