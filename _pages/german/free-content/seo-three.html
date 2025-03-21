@@ -1,0 +1,149 @@
+---
+title: Suchmaschinenoptimierung (SEO) Nr. 3 – Meta-Tags
+layout: single
+permalink: /seo-three
+header:
+    overlay_image: /images/photos/sydney2025-pink-03.webp
+    overlay_filter: rgba(0, 0, 0, 0.5)
+excerpt: "In dieser Beitragsreihe zeige ich dir, wie du deine Website für Suchmaschinen optimieren kannst. Der dritte Beitrag dreht sich um Meta-Tags."
+---
+
+
+<div class="notice--info">
+    <p class="bigger">
+        SEO ist ein zentraler Aspekt der Webentwicklung, doch seine Bedeutung hängt von den Zielen einer Website ab. Während eine starke Sichtbarkeit in Suchmaschinen für viele Unternehmen essenziell ist, legen andere Websites mehr Wert auf Branding, direkte Besucher:innen oder Nutzererfahrung.
+    </p>
+</div>
+
+Die Verbesserung deiner Platzierung von Position 8 auf 4 in einer Google-Suche kann im Schnitt viermal mehr Besucher:innen bringen – und auf Platz 1 zu kommen bedeutet eine zwölfmal höhere Sichtbarkeit! <a href="#1">[1]</a>, <a href="#2">[2]</a><br>
+<br>
+In dieser Beitragsreihe zeige ich dir, was du tun kannst, um deine Website für Suchmaschinen zu optimieren.<br>
+<br>
+Jeder Beitrag behandelt eine konkrete SEO-Maßnahme, die du direkt umsetzen kannst.<br>
+<br>
+Die Voraussetzung ist jedoch, dass die absoluten Grundlagen deiner Website stimmen! Das heißt: relevante Inhalte, gut formulierte Texte, passende Keywords für deine Zielgruppe und eine klare, ansprechende Struktur. Eine durchdachte Navigation ist essenziell, damit alle Inhalte leicht zugänglich sind. Wenn diese Basics nicht vorhanden sind, bringen dir weitere SEO-Tricks wenig.<br>
+<br>
+
+Lass uns mit SEO-To-Do #3 starten – <strong>Meta-Tags!</strong><br>
+
+<hr>
+
+<h3> Überblick </h3>
+
+Meta-Tags sind kurze, unsichtbare Informationen auf einer Webseite, die Suchmaschinen helfen, den Inhalt besser zu verstehen, die Auffindbarkeit zu beeinflussen und die Darstellung in den Suchergebnissen zu steuern. Sie verändern jedoch nicht das sichtbare Design oder den Inhalt der Website.
+<br><br>
+Es gibt verschiedene Meta-Tags, aber im SEO-Bereich sind die folgenden sechs besonders wichtig:
+<br>
+<ul class="green">
+    <li>Title-Tag</li>
+    <li>Description-Meta-Tag</li>
+    <li>Canonical-Tag</li>
+    <li>Robots-Meta-Tag</li>
+    <li>Viewport-Meta-Tag</li>
+    <li>Charset-Meta-Tag</li>
+</ul>
+
+<hr>
+
+<h3> Title-Tag </h3>
+
+<strong>Funktion:</strong><br>
+Der Title-Tag definiert den Titel einer Webseite, der in den Suchergebnissen und im Browser-Tab angezeigt wird.
+<br><br><strong>Beispiel:</strong><br>
+<div class="url-box">
+    <span class="yellow">&lt;title&gt;</span>Pers Rezepte<span class="yellow">&lt;/title&gt;</span>
+</div>
+
+<br><strong>Bedeutung für SEO:</strong><br>
+Ein aussagekräftiger Title-Tag ist entscheidend für die Klickrate. Er sollte relevant, prägnant und mit passenden Keywords versehen sein. Die Länge sollte 50–60 Zeichen nicht überschreiten, damit er in den Suchergebnissen vollständig angezeigt wird.
+
+<hr>
+
+<h3> Description-Meta-Tag </h3>
+
+<strong>Funktion:</strong><br>
+Der Description-Meta-Tag gibt eine kurze Zusammenfassung des Seiteninhalts und wird oft in den Suchergebnissen unter dem Title-Tag angezeigt.
+
+<br><br><strong>Beispiel:</strong><br>
+<div class="url-box">
+    <span class="yellow">&lt;meta</span> name=<span class="green">&quot;description&quot;</span> content=<span class="green">&quot;Entdecke die besten Rezepte für das perfekte Sommerdinner&quot;</span><span class="yellow">&gt;</span>
+</div>
+
+<br><strong>Bedeutung für SEO:</strong><br>
+Eine gut formulierte Meta-Beschreibung kann die Klickrate erhöhen, indem sie den Nutzer:innen eine klare Vorstellung vom Inhalt der Seite gibt. Die Länge sollte 150–160 Zeichen nicht überschreiten, um sicherzustellen, dass sie vollständig angezeigt wird. Relevante Keywords steigern die Auffindbarkeit.
+
+<hr>
+
+<h3> Canonical-Tag </h3>
+
+Wenn eine Seite unter mehreren URLs erreichbar ist, kann das Suchmaschinen verwirren.<br>
+<br>
+Beispielsweise könnte eine Unterseite deines Blogs sowohl unter
+<div class="url-box">https://deine-website.com<span class="bold">/blog</span></div>
+als auch unter
+<div class="url-box">https://deine-website.com<span class="bold">/beiträge</span></div>
+verfügbar sein. Um Suchmaschinen mitzuteilen, welche URL als "bevorzugt" gelten soll, kannst du den Canonical-Tag verwenden.<br>
+<br>
+Auf jeder Version der Seite sollte dann folgender Code stehen, wobei der Link in <span class="italic">href=</span><span class="darker-green">""</span> die bevorzugte "kanonische" Version angibt:
+
+<div class="url-box">
+    <span class="yellow">&lt;link</span> rel=<span class="darker-green">&quot;canonical&quot;</span> href=<span class="darker-green">&quot;https://deine-website.com/blog&quot;</span><span class="yellow">&gt;</span>
+</div>
+
+<hr>
+
+<h3> Robots-Meta-Tag </h3>
+
+<strong>Funktion:</strong><br>
+Der Robots-Meta-Tag gibt Anweisungen für Suchmaschinen-Crawler
+<span class="lighter"><small>(automatisierte Programme, die das Internet nach neuen Webseiten durchsuchen)</small></span>.
+Er bestimmt, ob eine Seite indexiert werden soll
+<span class="lighter"><small>(in den Suchmaschinen aufgenommen wird)</small></span>
+und ob Links auf der Seite verfolgt werden sollen.
+
+<br><br><strong>Beispiel für Standardwerte:</strong><br>
+<div class="url-box">
+    <span class="yellow">&lt;meta</span> name=<span class="green">&quot;robots&quot;</span> content=<span class="green">&quot;index, follow&quot;</span><span class="yellow">&gt;</span>
+</div>
+
+<br><strong>Bedeutung für SEO:</strong><br>
+Standardmäßig sind Seiten indexierbar und Links werden verfolgt. Der Robots-Meta-Tag ist nützlich, wenn du eine Seite nicht indexieren lassen möchtest (noindex) oder wenn Suchmaschinen die Links auf einer Seite nicht verfolgen sollen (nofollow).
+
+<hr>
+
+<h3> Viewport-Meta-Tag </h3>
+
+<strong>Funktion:</strong><br>
+Der Viewport-Meta-Tag beeinflusst die Darstellung einer Webseite auf Mobilgeräten, insbesondere die Breite des Anzeigebereichs.
+
+<br><br><strong>Empfohlene Standardeinstellung:</strong><br>
+<div class="url-box">
+    <span class="yellow">&lt;meta</span> name=<span class="green">&quot;viewport&quot;</span> content=<span class="green">&quot;width=device-width, initial-scale=1.0&quot;</span><span class="yellow">&gt;</span>
+</div>
+
+<br><strong>Bedeutung für SEO:</strong><br>
+Der Viewport-Tag ist essenziell für die mobile Optimierung. Ohne ihn könnten Webseiten auf Mobilgeräten falsch dargestellt werden, was die Nutzerfreundlichkeit und SEO beeinträchtigt.
+
+<hr>
+
+<h3> Charset-Meta-Tag </h3>
+
+<strong>Funktion:</strong><br>
+Der Charset-Meta-Tag legt die Zeichenkodierung der Webseite fest.
+
+<br><br><strong>Beispiel:</strong><br>
+<div class="url-box">
+    <span class="yellow">&lt;meta</span> charset=<span class="green">&quot;UTF-8&quot;</span><span class="yellow">&gt;</span>
+</div>
+
+<br><strong>Bedeutung für SEO:</strong><br>
+Die Zeichenkodierung sorgt dafür, dass Texte korrekt dargestellt werden. UTF-8 ist der Standard und unterstützt eine breite Palette von Zeichen, was besonders wichtig ist, wenn deine Seite mehrere Sprachen enthält.
+
+<hr>
+<h3> Quellen </h3>
+
+<span id="1">[1] Granka, Joachims & Gay. Eye-Tracking Analysis of User Behavior in WWW Search. 2004.</span><br>
+<span id="2">[2] Beus. Click Probabilities in Google SERPs. 2015.</span>
+
+
+

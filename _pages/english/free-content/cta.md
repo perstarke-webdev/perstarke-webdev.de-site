@@ -1,5 +1,5 @@
 ---
-title: "Call-to-Actions Done Right: CTA Guide for More Engagement"
+title: "Calls-to-Action Done Right: CTA Guide for More Engagement"
 permalink: /en/call-to-action
 layout: single_en
 

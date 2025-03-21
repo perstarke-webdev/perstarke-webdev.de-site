@@ -6,8 +6,8 @@ main:
     url: /about
   - title: "Referenzen"
     url: /references
-  - title: "Blog"
-    url: "https://blog.perstarke-webdev.de/"
+  - title: "Kostenlose Ressourcen"
+    url: /free-resources
 
 main_en:
   - title: "Services"
