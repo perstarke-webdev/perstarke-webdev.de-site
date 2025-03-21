@@ -13,9 +13,12 @@ excerpt: "Color choices in web design aren't just about aesthetics—they influe
 Color is one of the first things visitors notice when they land on a website.  
 It instantly evokes emotions and associations.
 
-For example, if you visit a website with **<span style="color: blue">blue</span> and <span style="color: red">red tones</span>**,  
-you might immediately associate it with the fitness industry or competition settings.  
-These colors create familiarity and emotional connection, reinforcing the website’s message.
+For example, when you visit a website that uses colors like  
+**<span style="background-color: #e20074; color: white; padding: 2px 4px;">Magenta</span>** or **<span style="background-color: #ffcc00; color: black; padding: 2px 4px;">Yellow</span>-<span style="background-color: #0058a3; color: white; padding: 2px 4px;">Blue</span>**,  
+you might instantly think of well-known brands like Telekom or IKEA.  
+These color schemes create familiarity and associations before you even read a single word.  
+That’s how color supports emotional connection and strengthens a website’s message.
+
 
 ## The Psychology of Colors – What They Communicate
 
@@ -24,7 +27,7 @@ Here’s a quick overview of the emotional and psychological effects of common c
 
 - <span style="background-color:#0000FF; color: white"><strong>Blue</strong></span>: Represents trust, calmness, and professionalism. Commonly used by banks and corporate websites to convey security and reliability. *However, it can also feel cold or impersonal if overused.*
 - <span style="background-color:#FF0000; color: white"><strong>Red</strong></span>: Associated with energy, urgency, and passion. It grabs attention and is often used for **Call-to-Action buttons** or sales promotions. *But too much red can feel aggressive or overwhelming.*
-- <span style="background-color:#FFD700;"><strong>Yellow</strong></span>: Symbolizes optimism, warmth, and friendliness. Great for drawing attention and creating a positive atmosphere. *However, excessive yellow can feel overwhelming or difficult to read on bright backgrounds.*
+- <span style="background-color:#FFD700; color: black"><strong>Yellow</strong></span>: Symbolizes optimism, warmth, and friendliness. Great for drawing attention and creating a positive atmosphere. *However, excessive yellow can feel overwhelming or difficult to read on bright backgrounds.*
 - <span style="background-color:#008000; color: white"><strong>Green</strong></span>: Represents nature, tranquility, and stability. Often used for eco-friendly brands or financial institutions.
 - <span style="background-color:#FFA500; color: white"><strong>Orange</strong></span>: Energetic and friendly, often used to convey enthusiasm and creativity.
 - <span style="background-color:#800080; color: white"><strong>Purple</strong></span>: Associated with luxury, creativity, and sophistication. Common in high-end branding.
