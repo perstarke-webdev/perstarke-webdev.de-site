@@ -13,9 +13,12 @@ excerpt: "Farbauswahl im Webdesign ist mehr als nur Ästhetik – Farben beeinfl
 Farben sind eines der ersten Dinge, die Besucher:innen auf einer Website wahrnehmen.  
 Sie rufen sofort Emotionen und Assoziationen hervor.
 
-Wenn du beispielsweise eine Website mit **<span style="color: blue">blauen</span> und <span style="color: red">roten Akzenten</span>** siehst,  
-assoziierst du sie vielleicht direkt mit der Fitnessbranche oder einem Wettbewerbsumfeld.  
-Diese Farben erzeugen Vertrautheit und emotionale Verbindung, wodurch die Botschaft der Website gestärkt wird.
+Wenn du beispielsweise auf eine Website mit Farben wie  
+**<span style="background-color: #e20074; color: white; padding: 2px 4px;">Magenta</span>** oder **<span style="background-color: #ffcc00; color: black; padding: 2px 4px;">Gelb</span>-<span style="background-color: #0058a3; color: white; padding: 2px 4px;">Blau</span>** triffst,  
+hast du womöglich sofort bestimmte Marken im Kopf – wie etwa Telekom oder IKEA.  
+Diese Farbwelten erzeugen Vertrautheit und Assoziationen, noch bevor du ein Wort gelesen hast.  
+So unterstützen Farben die emotionale Verbindung und verstärken die Botschaft einer Website.
+
 
 ## **Die Psychologie der Farben – Was sie kommunizieren**
 
@@ -24,7 +27,7 @@ Hier ein Überblick über die emotionalen und psychologischen Effekte gängiger 
 
 - <span style="background-color:#0000FF; color: white"><strong>Blau</strong></span>: Steht für Vertrauen, Ruhe und Professionalität. Wird häufig von Banken oder Unternehmen genutzt, um Sicherheit und Zuverlässigkeit zu vermitteln. *Zu viel Blau kann allerdings kühl oder unpersönlich wirken.*
 - <span style="background-color:#FF0000; color: white"><strong>Rot</strong></span>: Signalisiert Energie, Dringlichkeit und Leidenschaft. Perfekt für **Call-to-Action-Buttons** oder Rabattaktionen. *Aber Vorsicht – zu viel Rot kann aggressiv wirken.*
-- <span style="background-color:#FFD700;"><strong>Gelb</strong></span>: Steht für Optimismus, Wärme und Freundlichkeit. Perfekt, um Aufmerksamkeit zu erzeugen. *Zu viel Gelb kann jedoch überwältigend sein oder schwer lesbar auf hellen Hintergründen.*
+- <span style="background-color:#FFD700; color: black"><strong>Gelb</strong></span>: Steht für Optimismus, Wärme und Freundlichkeit. Perfekt, um Aufmerksamkeit zu erzeugen. *Zu viel Gelb kann jedoch überwältigend sein oder schwer lesbar auf hellen Hintergründen.*
 - <span style="background-color:#008000; color: white"><strong>Grün</strong></span>: Symbolisiert Natur, Ruhe und Stabilität. Wird häufig von umweltbewussten Marken oder Finanzunternehmen genutzt.
 - <span style="background-color:#FFA500; color: white"><strong>Orange</strong></span>: Wirkt energiegeladen und freundlich, oft eingesetzt für Begeisterung und Kreativität.
 - <span style="background-color:#800080; color: white"><strong>Lila</strong></span>: Assoziiert mit Luxus, Kreativität und Exklusivität. Häufig in hochwertigen Marken zu finden.
